@@ -1,9 +1,9 @@
-﻿Log file open, 05/03/17 11:52:06
+﻿Log file open, 05/04/17 14:02:25
 LogInit:Display: Running engine for game: Bachelor
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-2059639665) SRandInit(-2059639665).
+LogInit:Display: RandInit(-738580226) SRandInit(-738580226).
 LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.075761
+LogStats: Stats thread started at 0.072607
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -143,238 +143,1039 @@ LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.05.03-09.52.06:954][  0]LogConsoleManager:Display: Setting the console variable 'r.RHICmdBypass' with 'SetByProjectSetting' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
-[2017.05.03-09.52.06:961][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.03-09.52.06:961][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.05.03-09.52.07:055][  0]LogInit: Computer: LOKÅS
-[2017.05.03-09.52.07:055][  0]LogInit: User: bardlokas
-[2017.05.03-09.52.07:055][  0]LogInit: CPU Page size=65536, Cores=2
-[2017.05.03-09.52.07:055][  0]LogInit: High frequency timer resolution =2.338337 MHz
-[2017.05.03-09.52.07:056][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.05.03-09.52.07:056][  0]LogMemory: Platform Memory Stats for Windows
-[2017.05.03-09.52.07:056][  0]LogMemory: Process Physical Memory: 264.29 MB used, 264.29 MB peak
-[2017.05.03-09.52.07:056][  0]LogMemory: Process Virtual Memory: 262.35 MB used, 262.35 MB peak
-[2017.05.03-09.52.07:056][  0]LogMemory: Physical Memory: 6382.88 MB used,  1732.39 MB free, 8115.27 MB total
-[2017.05.03-09.52.07:056][  0]LogMemory: Virtual Memory: 674.75 MB used,  1732.39 MB free, 134217728.00 MB total
-[2017.05.03-09.52.07:383][  0]LogTextLocalizationManager: No translations for ('nb-NO') exist, falling back to 'en' for localization and internationalization data.
-[2017.05.03-09.52.11:245][  0]LogD3D11RHI: D3D11 adapters:
-[2017.05.03-09.52.11:285][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 840M' (Feature Level 11_0)
-[2017.05.03-09.52.11:285][  0]LogD3D11RHI:       2019/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.05.03-09.52.11:292][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
-[2017.05.03-09.52.11:292][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.05.03-09.52.11:294][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.05.03-09.52.11:294][  0]LogD3D11RHI:       0/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.05.03-09.52.11:294][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.05.03-09.52.11:300][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.05.03-09.52.11:300][  0]LogD3D11RHI:     GPU DeviceId: 0x1341 (for the marketing name, search the web for "GPU Device Id")
-[2017.05.03-09.52.11:300][  0]LogWindows: EnumDisplayDevices:
-[2017.05.03-09.52.11:300][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
-[2017.05.03-09.52.11:300][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:1)
-[2017.05.03-09.52.11:301][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
-[2017.05.03-09.52.11:301][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.05.03-09.52.11:301][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 840M
-[2017.05.03-09.52.11:301][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.05.03-09.52.11:301][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.05.03-09.52.11:301][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.05.03-09.52.11:321][  0]LogD3D11RHI: Async texture creation enabled
-[2017.05.03-09.52.11:336][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.05.03-09.52.11:337][  0]LogShaderCompilers: Guid format shader working directory is -48 characters bigger than the processId version (../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Intermediate/Shaders/WorkingDirectory/9292/).
-[2017.05.03-09.52.11:337][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bardlokas/AppData/Local/Temp/UnrealShaderWorkingDir/0F3F75A2494071892AFF7D8F0901D0D0/'.
-[2017.05.03-09.52.11:337][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.05.03-09.52.14:906][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.05.03-09.52.14:981][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.05.03-09.52.15:057][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.05.03-09.52.15:132][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.05.03-09.52.15:217][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.05.03-09.52.15:290][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.05.03-09.52.15:367][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.05.03-09.52.15:439][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.05.03-09.52.15:504][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.05.03-09.52.15:586][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.05.03-09.52.15:661][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.05.03-09.52.15:736][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.05.03-09.52.15:813][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.05.03-09.52.15:885][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.05.03-09.52.15:956][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.05.03-09.52.16:100][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.05.03-09.52.16:100][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.05.03-09.52.16:150][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.05.03-09.52.16:273][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.05.03-09.52.16:320][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.05.03-09.52.16:390][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.05.03-09.52.16:463][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.05.03-09.52.16:543][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.05.03-09.52.16:625][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.05.03-09.52.16:625][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.05.03-09.52.17:357][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.05.03-09.52.17:933][  0]LogDerivedDataCache: Loaded boot cache 0.58s 51MB C:/Users/bardlokas/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.05.03-09.52.17:933][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/bardlokas/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.05.03-09.52.17:933][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.05.03-09.52.17:933][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.05.03-09.52.17:933][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.05.03-09.52.17:933][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.05.03-09.52.17:957][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.05.03-09.52.17:970][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bardlokas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.05.03-09.52.20:451][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.03-09.52.20:456][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.05.03-09.52.20:887][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.05.03-09.52.20:953][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.05.03-09.52.21:224][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.05.03-09.52.21:224][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.05.03-09.52.21:224][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.05.03-09.52.22:209][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: bachelor, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2684569010
-[2017.05.03-09.52.22:280][  0]LogAssetRegistry: FAssetRegistry took 0.0213 seconds to start up
-[2017.05.03-09.52.22:409][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.073366 seconds
-[2017.05.03-09.52.22:419][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2017.05.03-09.52.22:419][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
-[2017.05.03-09.52.22:419][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.05.03-09.52.22:527][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.05.03-09.52.23:957][  0]LogSlate: Using Freetype 2.6.0
-[2017.05.03-09.52.23:972][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.03-09.52.23:972][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.03-09.52.29:206][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.05.03-09.52.29:280][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.05.03-09.52.29:858][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.05.03-09.52.30:515][  0]SourceControl: Info Source control is disabled
-[2017.05.03-09.52.31:224][  0]SourceControl: Info Source control is disabled
-[2017.05.03-09.52.31:319][  0]SourceControl: Info Source control is disabled
-[2017.05.03-09.52.31:399][  0]SourceControl: Info Source control is disabled
-[2017.05.03-09.52.34:022][  0]LogEngine: Initializing Engine...
-[2017.05.03-09.52.34:024][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.05.03-09.52.34:545][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.05.03-09.52.34:555][  0]LogInit: XAudio2 using 'Høyttalere (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.05.03-09.52.34:574][  0]LogInit: FAudioDevice initialized.
-[2017.05.03-09.52.34:617][  0]LogDerivedDataCache: Saved boot cache 0.04s 51MB C:/Users/bardlokas/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.05.03-09.52.34:631][  0]LogInit: Texture streaming: Enabled
-[2017.05.03-09.52.34:995][  0]LogInit: Transaction tracking system initialized
-[2017.05.03-09.52.35:541][  0]BlueprintLog: New page: Editor Load
-[2017.05.03-09.52.37:382][  0]LocalizationService: Info Localization service is disabled
-[2017.05.03-09.52.39:091][  0]LogConsoleResponse:Display: 
-[2017.05.03-09.52.39:670][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.05.03-09.52.39:670][  0]LogCook:Display: Mobile HDR setting 1
-[2017.05.03-09.52.39:755][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/' took 0.02s
-[2017.05.03-09.52.42:318][  0]SourceControl: Info Source control is disabled
-[2017.05.03-09.52.42:320][  0]LightingResults: New page: Lighting Build
-[2017.05.03-09.52.42:482][  0]MapCheck: New page: Map Check
-[2017.05.03-09.52.42:483][  0]LightingResults: New page: Lighting Build
-[2017.05.03-09.52.49:349][  0]LogAIModule: Creating AISystem for world Scenario1
-[2017.05.03-09.52.49:913][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.05.03-09.52.49:914][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.05.03-09.52.50:013][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 98.795ms to complete.
-[2017.05.03-09.52.50:013][  0]LogFileHelpers: Loading map 'Scenario1' took 7.694
-[2017.05.03-09.52.50:496][  0]LogCollectionManager: Loaded 0 collections in 0.005515 seconds
-[2017.05.03-09.52.50:711][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Collections/' took 0.01s
-[2017.05.03-09.52.50:711][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Developers/bardlokas/Collections/' took 0.00s
-[2017.05.03-09.52.50:711][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Collections/' took 0.00s
-[2017.05.03-09.52.50:711][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2017.05.03-09.52.50:737][  0]LogContentBrowser: Native class hierarchy populated in 0.0252 seconds. Added 2190 classes and 428 folders.
-[2017.05.03-09.52.50:794][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.05.03-09.52.50:794][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.05.03-09.52.50:794][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 13 classes and 0 folders.
-[2017.05.03-09.52.50:963][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0015 seconds. Added 0 classes and 0 folders.
-[2017.05.03-09.52.51:847][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2017.05.03-09.52.51:909][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.05.03-09.52.51:967][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.05.03-09.52.51:975][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.05.03-09.52.52:113][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2017.05.03-09.52.52:113][  0]LogLoad: (Engine Initialization) Total time: 48.18 seconds
-[2017.05.03-09.52.52:113][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.46 seconds
-[2017.05.03-09.52.52:113][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.05.03-09.52.52:113][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.05.03-09.52.52:463][  0]LogOcInput: OculusInput pre-init called
-[2017.05.03-09.52.52:517][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.05.03-09.52.52:921][  0]LogRenderer: Reallocating scene render targets to support 772x376 NumSamples 1 (Frame:2).
-[2017.05.03-09.52.53:048][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/' took 0.57s
-[2017.05.03-09.52.53:399][  2]LogAssetRegistry: Asset discovery search completed in 31.1403 seconds
-[2017.05.03-09.52.53:399][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.05.03-09.52.53:400][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000097 seconds (updated 0 objects)
-[2017.05.03-09.52.59:798][214]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 111 classes and 0 folders.
-[2017.05.03-09.52.59:956][214]LogBlueprintSupport:Warning: Editor config [EditoronlyBP] settings are DEPRECATED. You're not explicitly setting any, but they've been defaulting to off. If you are relying on this functionality, then please fix it up so your Blueprints don't break in a future release.
-[2017.05.03-10.12.35:092][ 25]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
-[2017.05.03-12.03.49:642][464]LogRenderer: Reallocating scene render targets to support 952x560 NumSamples 1 (Frame:580).
-[2017.05.03-12.04.50:322][606]LogBlueprint:Warning: Editor config [EditoronlyBP] settings are DEPRECATED. A Blueprint (VehicleTest) has a node ('Equal (Object)') with a pin ('B') that has a default object ('VehicleTest') that is now deprecated - use the target's class instead (may just require a resave).
-[2017.05.03-12.04.52:450][606]LogSavePackage: Save=100.52ms
-[2017.05.03-12.04.52:450][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/MatDBA56FC843A7A1D10C7C70B65CAE2F37.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Vehicle/Mat.uasset'
-[2017.05.03-12.04.52:463][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Vehicle/Mat.uasset
-[2017.05.03-12.04.52:543][606]LogSavePackage: Save=19.68ms
-[2017.05.03-12.04.52:543][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Mat_2A2F54A714D8C3F9236B1E1A79402A68A.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Vehicle/Mat_2.uasset'
-[2017.05.03-12.04.52:547][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Vehicle/Mat_2.uasset
-[2017.05.03-12.04.52:625][606]LogSavePackage: Save=18.18ms
-[2017.05.03-12.04.52:625][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Mat_3BCC2C43E41DF4CC50D73F2A69F4AC91C.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Vehicle/Mat_3.uasset'
-[2017.05.03-12.04.52:629][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Vehicle/Mat_3.uasset
-[2017.05.03-12.04.52:708][606]LogSavePackage: Save=18.80ms
-[2017.05.03-12.04.52:708][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Mat_4F01E190A4220BB9C449105AC575D0E1B.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Vehicle/Mat_4.uasset'
-[2017.05.03-12.04.52:712][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Vehicle/Mat_4.uasset
-[2017.05.03-12.04.52:796][606]LogSavePackage: Save=18.02ms
-[2017.05.03-12.04.52:796][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Window2D65236547DF195903214FAA814C5224.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Vehicle/Window.uasset'
-[2017.05.03-12.04.52:799][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Vehicle/Window.uasset
-[2017.05.03-12.04.52:883][606]LogSavePackage: Save=21.70ms
-[2017.05.03-12.04.52:883][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/CarF097B96C4615CBBE133C30B7A09874D0.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Vehicle/Car.uasset'
-[2017.05.03-12.04.52:886][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Vehicle/Car.uasset
-[2017.05.03-12.04.52:891][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Car/Car" FILE="../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Car/Car.uasset" SILENT=true
-[2017.05.03-12.04.52:997][606]LogSavePackage: Save=6.78ms
-[2017.05.03-12.04.52:997][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/CarC09DB57540319357EB6240997DF2805A.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Car/Car.uasset'
-[2017.05.03-12.04.53:002][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Car/Car.uasset
-[2017.05.03-12.04.53:082][606]LogSavePackage: Save=20.03ms
-[2017.05.03-12.04.53:083][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/CarBlueFC11D78041EEED35FCB3C5AC8770D769.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Vehicle/CarBlue.uasset'
-[2017.05.03-12.04.53:087][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Vehicle/CarBlue.uasset
-[2017.05.03-12.04.53:112][606]LogSavePackage: Save=5.52ms
-[2017.05.03-12.04.53:112][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/CarBlueD9BA081A40A455376259D6A717A08336.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Car/CarBlue.uasset'
-[2017.05.03-12.04.53:116][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Car/CarBlue.uasset
-[2017.05.03-12.04.53:186][606]LogSavePackage: Save=19.32ms
-[2017.05.03-12.04.53:186][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/CarGreenD3810B3E49120590601EA9996952C042.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Vehicle/CarGreen.uasset'
-[2017.05.03-12.04.53:189][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Vehicle/CarGreen.uasset
-[2017.05.03-12.04.53:217][606]LogSavePackage: Save=5.69ms
-[2017.05.03-12.04.53:217][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/CarGreenCAA345E24757C5D72BE2D981CCF989CF.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Car/CarGreen.uasset'
-[2017.05.03-12.04.53:222][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Car/CarGreen.uasset
-[2017.05.03-12.04.53:318][606]LogSavePackage: Save=47.48ms
-[2017.05.03-12.04.53:318][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/car2_18ADD9E674F5B364B587DBE858D1F7D56.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Vehicle/car2_1.uasset'
-[2017.05.03-12.04.53:321][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Vehicle/car2_1.uasset
-[2017.05.03-12.04.53:346][606]LogSavePackage: Save=5.56ms
-[2017.05.03-12.04.53:346][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/car2_15F392D30455CB113C32AF8A5607D4D13.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Car/car2_1.uasset'
-[2017.05.03-12.04.53:350][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Car/car2_1.uasset
-[2017.05.03-12.04.54:849][606]LogSavePackage: Save=134.84ms
-[2017.05.03-12.04.54:849][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Vehicle17D9B4CC4907AC2BF874D699828952E0.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle.uasset'
-[2017.05.03-12.04.54:852][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle.uasset
-[2017.05.03-12.04.55:013][606]LogSavePackage: Save=138.21ms
-[2017.05.03-12.04.55:013][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Vehicle26A45B135403C0EC2D931789DEA29FF3D.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle2.uasset'
-[2017.05.03-12.04.55:016][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle2.uasset
-[2017.05.03-12.04.55:244][606]LogSavePackage: Save=97.71ms
-[2017.05.03-12.04.55:244][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/VehicleTest80E029284FBDBEC3FAA9C2BFDF7F4590.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/VehicleTest.uasset'
-[2017.05.03-12.04.55:246][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/VehicleTest.uasset
-[2017.05.03-12.04.55:374][606]LogSavePackage: Save=101.80ms
-[2017.05.03-12.04.55:374][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Vehicle5981707E4B7A61FAA4D97F9E6843F3FF.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle.uasset'
-[2017.05.03-12.04.55:376][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle.uasset
-[2017.05.03-12.04.55:506][606]LogSavePackage: Save=113.21ms
-[2017.05.03-12.04.55:506][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Vehicle27D5A1C304E05DB527E1B98A8855C3D29.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle2.uasset'
-[2017.05.03-12.04.55:508][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle2.uasset
-[2017.05.03-12.04.55:606][606]LogSavePackage: Save=84.45ms
-[2017.05.03-12.04.55:606][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/VehicleTest9C052B1B476F6276D97BAF95576115AB.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/VehicleTest.uasset'
-[2017.05.03-12.04.55:608][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/VehicleTest.uasset
-[2017.05.03-12.04.55:730][606]LogSavePackage: Save=106.91ms
-[2017.05.03-12.04.55:730][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Vehicle3EB065644CEE9FF7155D05A7874DC340.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle.uasset'
-[2017.05.03-12.04.55:732][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle.uasset
-[2017.05.03-12.04.55:863][606]LogSavePackage: Save=115.84ms
-[2017.05.03-12.04.55:863][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Vehicle2B2119398466A4F84CCABF789932F84A9.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle2.uasset'
-[2017.05.03-12.04.55:902][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle2.uasset
-[2017.05.03-12.04.56:001][606]LogSavePackage: Save=83.65ms
-[2017.05.03-12.04.56:001][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/VehicleTest14472776414C09295A5A09A69BC44145.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/VehicleTest.uasset'
-[2017.05.03-12.04.56:005][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/VehicleTest.uasset
-[2017.05.03-12.04.56:121][606]LogSavePackage: Save=102.64ms
-[2017.05.03-12.04.56:121][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Vehicle1B7057DD4EF048E3027763AF7A53E67D.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle.uasset'
-[2017.05.03-12.04.56:124][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle.uasset
-[2017.05.03-12.04.56:253][606]LogSavePackage: Save=114.78ms
-[2017.05.03-12.04.56:253][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Vehicle27FB8049A441AC0D49FC8C1BBA2AAFF8E.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle2.uasset'
-[2017.05.03-12.04.56:257][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle2.uasset
-[2017.05.03-12.04.56:353][606]LogSavePackage: Save=81.37ms
-[2017.05.03-12.04.56:353][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/VehicleTestF465CE044A9E0487E60551A850071590.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/VehicleTest.uasset'
-[2017.05.03-12.04.56:354][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/VehicleTest.uasset
-[2017.05.03-12.04.56:474][606]LogSavePackage: Save=105.41ms
-[2017.05.03-12.04.56:474][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Vehicle7FD5FA3147334CB5DA1D9CB45F0BD085.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle.uasset'
-[2017.05.03-12.04.56:476][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle.uasset
-[2017.05.03-12.04.56:602][606]LogSavePackage: Save=111.55ms
-[2017.05.03-12.04.56:602][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Vehicle284678AE24614B97147AD818B3560E95B.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle2.uasset'
-[2017.05.03-12.04.56:604][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/Vehicle2.uasset
-[2017.05.03-12.04.56:707][606]LogSavePackage: Save=86.71ms
-[2017.05.03-12.04.56:707][606]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/VehicleTestC5D2C15E4CF0BE37071F819E56312743.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/VehicleTest.uasset'
-[2017.05.03-12.04.56:709][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VehicleBlueprint/VehicleTest.uasset
+[2017.05.04-12.02.26:374][  0]LogConsoleManager:Display: Setting the console variable 'r.RHICmdBypass' with 'SetByProjectSetting' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.04-12.02.26:382][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.04-12.02.26:382][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.04-12.02.26:441][  0]LogInit: Computer: LOKÅS
+[2017.05.04-12.02.26:441][  0]LogInit: User: bardlokas
+[2017.05.04-12.02.26:441][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.05.04-12.02.26:441][  0]LogInit: High frequency timer resolution =2.338337 MHz
+[2017.05.04-12.02.26:442][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.04-12.02.26:442][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.04-12.02.26:442][  0]LogMemory: Process Physical Memory: 264.34 MB used, 264.34 MB peak
+[2017.05.04-12.02.26:442][  0]LogMemory: Process Virtual Memory: 262.41 MB used, 262.41 MB peak
+[2017.05.04-12.02.26:442][  0]LogMemory: Physical Memory: 5220.56 MB used,  2894.71 MB free, 8115.27 MB total
+[2017.05.04-12.02.26:442][  0]LogMemory: Virtual Memory: 674.75 MB used,  2894.71 MB free, 134217728.00 MB total
+[2017.05.04-12.02.26:554][  0]LogTextLocalizationManager: No translations for ('nb-NO') exist, falling back to 'en' for localization and internationalization data.
+[2017.05.04-12.02.30:929][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.04-12.02.31:035][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 840M' (Feature Level 11_0)
+[2017.05.04-12.02.31:035][  0]LogD3D11RHI:       2019/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.04-12.02.31:048][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2017.05.04-12.02.31:048][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.05.04-12.02.31:051][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.04-12.02.31:051][  0]LogD3D11RHI:       0/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.04-12.02.31:051][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.04-12.02.31:060][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.04-12.02.31:060][  0]LogD3D11RHI:     GPU DeviceId: 0x1341 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.04-12.02.31:060][  0]LogWindows: EnumDisplayDevices:
+[2017.05.04-12.02.31:061][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.05.04-12.02.31:061][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:1)
+[2017.05.04-12.02.31:061][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.05.04-12.02.31:062][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.05.04-12.02.31:062][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 840M
+[2017.05.04-12.02.31:062][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.05.04-12.02.31:062][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.05.04-12.02.31:062][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.04-12.02.31:092][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.04-12.02.31:114][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.04-12.02.31:115][  0]LogShaderCompilers: Guid format shader working directory is -48 characters bigger than the processId version (../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Intermediate/Shaders/WorkingDirectory/8860/).
+[2017.05.04-12.02.31:115][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bardlokas/AppData/Local/Temp/UnrealShaderWorkingDir/784A7FDA4F78188C00D811B1EF028D98/'.
+[2017.05.04-12.02.31:116][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.04-12.02.37:361][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.04-12.02.37:479][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.04-12.02.37:604][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.04-12.02.37:718][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.04-12.02.37:875][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.04-12.02.37:988][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.04-12.02.38:124][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.04-12.02.38:255][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.04-12.02.38:366][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.04-12.02.38:749][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.04-12.02.38:870][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.04-12.02.39:003][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.04-12.02.39:223][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.04-12.02.39:383][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.04-12.02.39:499][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.04-12.02.39:758][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.04-12.02.39:758][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.04-12.02.39:917][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.04-12.02.40:144][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.04-12.02.40:208][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.04-12.02.40:295][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.04-12.02.40:374][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.04-12.02.40:469][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.04-12.02.40:560][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.04-12.02.40:560][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.04-12.02.41:552][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.04-12.02.41:968][  0]LogDerivedDataCache: Loaded boot cache 0.42s 51MB C:/Users/bardlokas/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.05.04-12.02.41:968][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/bardlokas/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.05.04-12.02.41:968][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.04-12.02.41:968][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.04-12.02.41:968][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.04-12.02.41:968][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.04-12.02.41:991][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.04-12.02.42:003][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bardlokas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.04-12.02.44:352][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.04-12.02.44:447][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.04-12.02.45:050][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.04-12.02.45:114][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.04-12.02.45:180][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.04-12.02.45:180][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.04-12.02.45:180][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.04-12.02.46:410][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: bachelor, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2684569010
+[2017.05.04-12.02.46:518][  0]LogAssetRegistry: FAssetRegistry took 0.0232 seconds to start up
+[2017.05.04-12.02.46:588][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.024894 seconds
+[2017.05.04-12.02.46:600][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.05.04-12.02.46:600][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2017.05.04-12.02.46:600][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.04-12.02.46:822][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.04-12.02.49:309][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.04-12.02.49:330][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.04-12.02.49:331][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.04-12.02.55:175][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.04-12.02.55:246][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.04-12.02.56:011][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.04-12.02.56:780][  0]SourceControl: Info Source control is disabled
+[2017.05.04-12.02.57:188][  0]SourceControl: Info Source control is disabled
+[2017.05.04-12.02.57:268][  0]SourceControl: Info Source control is disabled
+[2017.05.04-12.02.57:340][  0]SourceControl: Info Source control is disabled
+[2017.05.04-12.02.59:807][  0]LogEngine: Initializing Engine...
+[2017.05.04-12.02.59:808][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.04-12.03.00:267][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.04-12.03.00:278][  0]LogInit: XAudio2 using 'Høyttalere (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-12.03.00:296][  0]LogInit: FAudioDevice initialized.
+[2017.05.04-12.03.00:341][  0]LogDerivedDataCache: Saved boot cache 0.04s 51MB C:/Users/bardlokas/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.05.04-12.03.00:357][  0]LogInit: Texture streaming: Enabled
+[2017.05.04-12.03.00:690][  0]LogInit: Transaction tracking system initialized
+[2017.05.04-12.03.01:241][  0]BlueprintLog: New page: Editor Load
+[2017.05.04-12.03.02:891][  0]LocalizationService: Info Localization service is disabled
+[2017.05.04-12.03.03:945][  0]LogConsoleResponse:Display: 
+[2017.05.04-12.03.04:199][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.04-12.03.04:199][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.04-12.03.05:094][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/' took 0.02s
+[2017.05.04-12.03.05:826][  0]SourceControl: Info Source control is disabled
+[2017.05.04-12.03.05:827][  0]LightingResults: New page: Lighting Build
+[2017.05.04-12.03.05:889][  0]MapCheck: New page: Map Check
+[2017.05.04-12.03.05:889][  0]LightingResults: New page: Lighting Build
+[2017.05.04-12.03.08:934][  0]LogAIModule: Creating AISystem for world Scenario1
+[2017.05.04-12.03.09:042][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.04-12.03.09:042][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.04-12.03.09:138][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.001ms to complete.
+[2017.05.04-12.03.09:138][  0]LogFileHelpers: Loading map 'Scenario1' took 3.312
+[2017.05.04-12.03.09:360][  0]LogCollectionManager: Loaded 0 collections in 0.003035 seconds
+[2017.05.04-12.03.09:462][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Collections/' took 0.01s
+[2017.05.04-12.03.09:462][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Developers/bardlokas/Collections/' took 0.01s
+[2017.05.04-12.03.09:462][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Collections/' took 0.01s
+[2017.05.04-12.03.09:462][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.04-12.03.09:477][  0]LogContentBrowser: Native class hierarchy populated in 0.0139 seconds. Added 2190 classes and 428 folders.
+[2017.05.04-12.03.09:540][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.04-12.03.09:540][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.04-12.03.09:541][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 13 classes and 0 folders.
+[2017.05.04-12.03.09:640][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.05.04-12.03.09:698][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.05.04-12.03.09:786][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.05.04-12.03.09:845][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.04-12.03.09:853][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.04-12.03.09:980][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.05.04-12.03.09:981][  0]LogLoad: (Engine Initialization) Total time: 47.05 seconds
+[2017.05.04-12.03.09:981][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.13 seconds
+[2017.05.04-12.03.09:981][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.04-12.03.09:981][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.04-12.03.10:321][  0]LogOcInput: OculusInput pre-init called
+[2017.05.04-12.03.10:340][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.04-12.03.10:548][  0]LogRenderer: Reallocating scene render targets to support 952x560 NumSamples 1 (Frame:2).
+[2017.05.04-12.03.11:055][  2]LogAssetRegistry: Asset discovery search completed in 24.5600 seconds
+[2017.05.04-12.03.11:055][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.05.04-12.03.11:055][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2017.05.04-12.03.21:234][287]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.05.04-12.03.21:321][287]LightingResults: New page: Lighting Build
+[2017.05.04-12.03.21:322][287]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2017.05.04-12.03.21:326][287]MapCheck: New page: Map Check
+[2017.05.04-12.03.21:326][287]LightingResults: New page: Lighting Build
+[2017.05.04-12.03.21:372][287]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.04-12.03.21:433][287]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.04-12.03.21:539][287]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 106.436ms to complete.
+[2017.05.04-12.03.21:540][287]LogFileHelpers: Loading map 'MotionControllerMap' took 0.221
+[2017.05.04-12.03.25:672][460]LogAIModule: Creating AISystem for world Scenario1
+[2017.05.04-12.03.25:770][460]LightingResults: New page: Lighting Build
+[2017.05.04-12.03.25:771][460]LoadErrors: New page: Loading map: Scenario1.umap
+[2017.05.04-12.03.25:772][460]MapCheck: New page: Map Check
+[2017.05.04-12.03.25:772][460]LightingResults: New page: Lighting Build
+[2017.05.04-12.03.25:896][460]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.04-12.03.25:946][460]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.04-12.03.26:056][460]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 109.631ms to complete.
+[2017.05.04-12.03.26:056][460]LogFileHelpers: Loading map 'Scenario1' took 0.288
+[2017.05.04-12.03.28:278][564]LogAIModule: Creating AISystem for world StartupMap
+[2017.05.04-12.03.28:350][564]LightingResults: New page: Lighting Build
+[2017.05.04-12.03.28:351][564]LoadErrors: New page: Loading map: StartupMap.umap
+[2017.05.04-12.03.28:354][564]MapCheck: New page: Map Check
+[2017.05.04-12.03.28:354][564]LightingResults: New page: Lighting Build
+[2017.05.04-12.03.28:409][564]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.04-12.03.28:460][564]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.04-12.03.28:567][564]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 106.971ms to complete.
+[2017.05.04-12.03.28:569][564]LogFileHelpers: Loading map 'StartupMap' took 0.221
+[2017.05.04-12.03.31:009][659]LogAIModule: Creating AISystem for world Scenario1
+[2017.05.04-12.03.31:103][659]LightingResults: New page: Lighting Build
+[2017.05.04-12.03.31:104][659]LoadErrors: New page: Loading map: Scenario1.umap
+[2017.05.04-12.03.31:105][659]MapCheck: New page: Map Check
+[2017.05.04-12.03.31:105][659]LightingResults: New page: Lighting Build
+[2017.05.04-12.03.31:232][659]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.04-12.03.31:276][659]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.04-12.03.31:364][659]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.292ms to complete.
+[2017.05.04-12.03.31:364][659]LogFileHelpers: Loading map 'Scenario1' took 0.262
+[2017.05.04-12.03.35:820][896]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.05.04-12.03.36:928][896]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.05.04-12.03.37:492][896]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2017.05.04-12.03.37:540][896]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.05.04-12.03.37:881][896]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.05.04-12.03.38:079][896]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2017.05.04-12.03.38:088][896]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2017.05.04-12.03.38:116][896]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2017.05.04-12.03.38:144][896]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2017.05.04-12.03.38:429][896]LogAIModule: Creating AISystem for world HMDLocomotionMap
+[2017.05.04-12.03.44:141][ 85]LogAIModule: Creating AISystem for world StartupMap
+[2017.05.04-12.04.08:582][913]MapCheck: New page: Map Check
+[2017.05.04-12.04.08:751][913]Cmd: MAP REBUILD ALLVISIBLE
+[2017.05.04-12.04.08:751][913]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.05.04-12.04.09:094][913]LightingResults: New page: Lighting Build - May 4, 2017, 4:04:09 PM
+[2017.05.04-12.04.09:527][913]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.05.04-12.04.10:001][913]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.05.04-12.04.10:069][913]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.05.04-12.04.12:934][913]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2017.05.04-12.04.13:106][913]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): Kan ikke koble til fordi målmaskinen avslo tilkobling 127.0.0.1:8008
+
+Server stack trace: 
+   ved System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   ved System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   ved System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   ved System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   ved System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   ved System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   ved System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   ved System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   ved System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   ved NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   ved NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2017.05.04-12.04.18:452][913]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.05.04-12.04.18:452][913]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8860
+[2017.05.04-12.04.25:801][913]LogStaticLightingSystem:Warning: Failed to connect to Swarm.
+[2017.05.04-12.04.28:547][913]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.05.04-12.04.28:547][913]MapCheck: New page: Scenario1 - May 4, 2017, 4:04:28 PM
+[2017.05.04-12.04.28:691][913]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 143.917ms to complete.
+[2017.05.04-12.04.28:714][913]LogEditorBuildUtils: Build time 0:20
+[2017.05.04-12.06.12:605][415]LogSavePackage: Save=52.28ms
+[2017.05.04-12.06.12:605][415]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SM_TunellFA2584094313C8E4AB515AA1B1F6392D.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/SM_Tunell.uasset'
+[2017.05.04-12.06.12:610][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/SM_Tunell.uasset
+[2017.05.04-12.06.12:657][415]LogSavePackage: Save=14.34ms
+[2017.05.04-12.06.12:657][415]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Tunell2D4659164D605CB48D6FFF8AEB7621FC.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Tunell.uasset'
+[2017.05.04-12.06.12:661][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Tunell.uasset
+[2017.05.04-12.06.34:420][331]LogSavePackage: Save=19.81ms
+[2017.05.04-12.06.34:420][331]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SM_Sving8ED37A784B1EDE6B7A95F283D6AA9A63.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/SM_Sving.uasset'
+[2017.05.04-12.06.34:426][331]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/SM_Sving.uasset
+[2017.05.04-12.06.34:458][331]LogSavePackage: Save=6.37ms
+[2017.05.04-12.06.34:458][331]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SvingCCF7E0934F2B810CE658F3BDA82CE450.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/Sving.uasset'
+[2017.05.04-12.06.34:462][331]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/Sving.uasset
+[2017.05.04-12.06.39:277][585]LogEditorViewport: Clicking on Actor (LMB): BP_RoadWithX_C (RoadWithX)
+[2017.05.04-12.07.50:339][218]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Vei4)
+[2017.05.04-12.07.51:724][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sving)
+[2017.05.04-12.08.07:113][726]LogRenderer: Reallocating scene render targets to support 1016x612 NumSamples 1 (Frame:15775).
+[2017.05.04-12.08.32:679][470]LogSavePackage: Save=24.81ms
+[2017.05.04-12.08.32:679][470]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_Asphalt_TurnDF609C8E44816CE7DD2C07A4AC5BEEA6.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/M_Asphalt_Turn.uasset'
+[2017.05.04-12.08.32:683][470]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/M_Asphalt_Turn.uasset
+[2017.05.04-12.08.32:951][470]LogSavePackage: Save=44.94ms
+[2017.05.04-12.08.32:951][470]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SM_Sving42E18DBB483D9089953EC496143CEC9B.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/SM_Sving.uasset'
+[2017.05.04-12.08.32:953][470]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/SM_Sving.uasset
+[2017.05.04-12.09.10:169][646]LogSavePackage: Save=22.66ms
+[2017.05.04-12.09.10:169][646]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_Curb894DFE9C40BF02408F97899E33964D78.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/M_Curb.uasset'
+[2017.05.04-12.09.10:173][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/M_Curb.uasset
+[2017.05.04-12.09.10:436][646]LogSavePackage: Save=9.71ms
+[2017.05.04-12.09.10:437][646]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SM_SvingF0668BFA44351270F0E3658DDDE988C3.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/SM_Sving.uasset'
+[2017.05.04-12.09.10:439][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/SM_Sving.uasset
+[2017.05.04-12.09.16:988][894]LogSavePackage: Save=20.40ms
+[2017.05.04-12.09.16:989][894]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_RoadLine225E634247D13CC6C31DBCAD6B6FB70C.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/M_RoadLine.uasset'
+[2017.05.04-12.09.16:992][894]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/M_RoadLine.uasset
+[2017.05.04-12.09.17:196][894]LogSavePackage: Save=9.13ms
+[2017.05.04-12.09.17:196][894]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SM_Sving0ED1D81A40BB19540DA846BBBAFBE2F9.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/SM_Sving.uasset'
+[2017.05.04-12.09.17:198][894]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/SM_Sving.uasset
+[2017.05.04-12.09.27:177][295]LogSavePackage: Save=18.38ms
+[2017.05.04-12.09.27:177][295]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_RoadSideLine14DF86CF428044AFFCF25A80003991F8.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/M_RoadSideLine.uasset'
+[2017.05.04-12.09.27:181][295]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/M_RoadSideLine.uasset
+[2017.05.04-12.09.27:397][295]LogSavePackage: Save=9.10ms
+[2017.05.04-12.09.27:397][295]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SM_Sving5EDABB7E4337E57B9D320FB2A3E4081B.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/SM_Sving.uasset'
+[2017.05.04-12.09.27:400][295]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Turn/SM_Sving.uasset
+[2017.05.04-12.09.43:962][817]LogSavePackage: Save=24.51ms
+[2017.05.04-12.09.43:962][817]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_YellowLineRoad55477D88468A4494E90BD2A241CDFE15.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Road/M_YellowLineRoad.uasset'
+[2017.05.04-12.09.43:968][817]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Road/M_YellowLineRoad.uasset
+[2017.05.04-12.09.44:009][817]LogSavePackage: Save=8.25ms
+[2017.05.04-12.09.44:009][817]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Mat_2A0D8FBB34DEB4E61931DB882C973AA5B.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Road/Mat_2.uasset'
+[2017.05.04-12.09.44:014][817]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Road/Mat_2.uasset
+[2017.05.04-12.11.45:520][562]LogSavePackage: Save=37.95ms
+[2017.05.04-12.11.45:520][562]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_SidesFBC422A84D50C724A665448354C49B20.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Road/M_Sides.uasset'
+[2017.05.04-12.11.45:528][562]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Road/M_Sides.uasset
+[2017.05.04-12.11.45:647][562]LogSavePackage: Save=47.39ms
+[2017.05.04-12.11.45:647][562]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Mat_15FBCD4864B1DC8F7ADC65480040D48D8.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Road/Mat_1.uasset'
+[2017.05.04-12.11.45:661][562]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Road/Mat_1.uasset
+[2017.05.04-12.11.50:496][660]LogSavePackage: Save=30.25ms
+[2017.05.04-12.11.50:496][660]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_RoadLines141F86A041CC8E398294778045EF34D8.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Road/M_RoadLines.uasset'
+[2017.05.04-12.11.50:503][660]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Road/M_RoadLines.uasset
+[2017.05.04-12.11.50:548][660]LogSavePackage: Save=9.48ms
+[2017.05.04-12.11.50:548][660]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Mat58963F43468DE2FC975A6F9701F1944C.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Road/Mat.uasset'
+[2017.05.04-12.11.50:555][660]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Road/Mat.uasset
+[2017.05.04-12.12.05:608][988]LogSavePackage: Save=36.69ms
+[2017.05.04-12.12.05:608][988]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_curb6841ECAA467FBAD0A89B9A836F8F105C.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Road/M_curb.uasset'
+[2017.05.04-12.12.05:615][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Road/M_curb.uasset
+[2017.05.04-12.12.05:673][988]LogSavePackage: Save=9.86ms
+[2017.05.04-12.12.05:673][988]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Mat_3E8D3D6404332C70EA5E5DC9A140F6948.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Road/Mat_3.uasset'
+[2017.05.04-12.12.05:681][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadTurnAndPedestrianCrossing/Road/Mat_3.uasset
+[2017.05.04-12.14.06:597][290]LogBlueprintSupport:Warning: Editor config [EditoronlyBP] settings are DEPRECATED. You're not explicitly setting any, but they've been defaulting to off. If you are relying on this functionality, then please fix it up so your Blueprints don't break in a future release.
+[2017.05.04-12.14.07:278][290]LogSavePackage: Save=1280.55ms
+[2017.05.04-12.14.07:280][290]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Scenario1_Auto143C4261B49252D5C8D84D1A37694189C.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Autosaves/Game/VirtualRealityBP/Maps/Scenario1_Auto1.umap'
+[2017.05.04-12.14.07:283][290]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Autosaves/Game/VirtualRealityBP/Maps/Scenario1_Auto1.umap
+[2017.05.04-12.14.07:297][290]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/Scenario1' took 1.513
+[2017.05.04-12.14.07:298][290]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.513
+[2017.05.04-12.16.53:974][788]LogSavePackage: Save=38.94ms
+[2017.05.04-12.16.53:974][788]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SM_ShrubberyEBA8B0A34CB55E19F46E6498E4B4CEC8.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Trees/SM_Shrubbery.uasset'
+[2017.05.04-12.16.53:980][788]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Trees/SM_Shrubbery.uasset
+[2017.05.04-12.16.54:130][788]LogSavePackage: Save=6.43ms
+[2017.05.04-12.16.54:130][788]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SM_Busk99C728A6443B7A35059A1BABD5995398.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Trees/SM_Busk.uasset'
+[2017.05.04-12.16.54:140][788]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Trees/SM_Busk.uasset
+[2017.05.04-12.17.15:022][791]LogMetaData: Removing '/Game/Models/TrafficLight/BP_TrafficLight.BP_TrafficLight_C' ref from Metadata '/Game/Models/TrafficLight/BP_Trafikklys.PackageMetaData'
+[2017.05.04-12.17.15:022][791]LogMetaData: Removing '/Game/Models/TrafficLight/BP_TrafficLight.BP_TrafficLight:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Models/TrafficLight/BP_Trafikklys.PackageMetaData'
+[2017.05.04-12.17.15:022][791]LogMetaData: Removing '/Game/Models/TrafficLight/BP_TrafficLight.SKEL_BP_TrafficLight_C' ref from Metadata '/Game/Models/TrafficLight/BP_Trafikklys.PackageMetaData'
+[2017.05.04-12.17.15:429][791]LogSavePackage: Save=159.64ms
+[2017.05.04-12.17.15:430][791]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_TrafficLight619BBB3A4E86A9665D6046AB1BA805B6.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/BP_TrafficLight.uasset'
+[2017.05.04-12.17.15:437][791]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/BP_TrafficLight.uasset
+[2017.05.04-12.17.15:706][791]LogSavePackage: Save=11.14ms
+[2017.05.04-12.17.15:706][791]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Trafikklys_BlueprintD0CA753A454B17DBC46EB2A5608C3732.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/Trafikklys_Blueprint.uasset'
+[2017.05.04-12.17.15:707][791]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/Trafikklys_Blueprint.uasset
+[2017.05.04-12.17.35:050][412]LogSavePackage: Save=20.50ms
+[2017.05.04-12.17.35:050][412]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SM_TrafficLight84175BE44F70825567271B92D7BB3DC0.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLight.uasset'
+[2017.05.04-12.17.35:054][412]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLight.uasset
+[2017.05.04-12.17.35:420][412]LogSavePackage: Save=87.80ms
+[2017.05.04-12.17.35:420][412]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/TrafikklysDobbel_Blueprint85C25CEA4A01FD0DD9C2B59FF2C6507D.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysDobbel_Blueprint.uasset'
+[2017.05.04-12.17.35:423][412]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysDobbel_Blueprint.uasset
+[2017.05.04-12.17.49:548][736]Cmd: TRANSACTION UNDO
+[2017.05.04-12.17.49:549][736]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.04-12.17.54:109][901]LogSavePackage: Save=27.43ms
+[2017.05.04-12.17.54:109][901]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SM_TrafficLightasdasA58BE85C408134D777F443BED9B645A1.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLightasdas.uasset'
+[2017.05.04-12.17.54:112][901]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLightasdas.uasset
+[2017.05.04-12.17.54:497][901]LogSavePackage: Save=110.35ms
+[2017.05.04-12.17.54:497][901]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/TrafikklysDobbel_Blueprint539F3CB4480FC5D02B8724AB7C9AC13D.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysDobbel_Blueprint.uasset'
+[2017.05.04-12.17.54:500][901]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysDobbel_Blueprint.uasset
+[2017.05.04-12.17.59:820][ 65]LogSavePackage: Save=44.62ms
+[2017.05.04-12.17.59:820][ 65]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SM_TrafficLightD54910424FAC8A04E85FFB866D7F47F5.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLight.uasset'
+[2017.05.04-12.17.59:824][ 65]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLight.uasset
+[2017.05.04-12.18.00:136][ 65]LogSavePackage: Save=85.76ms
+[2017.05.04-12.18.00:136][ 65]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_TrafficLightCC1400F0418BEF97B36BE7BE92A82921.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/BP_TrafficLight.uasset'
+[2017.05.04-12.18.00:138][ 65]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/BP_TrafficLight.uasset
+[2017.05.04-12.18.59:607][313]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 111 classes and 0 folders.
+[2017.05.04-12.19.30:635][373]LogMetaData: Removing '/Game/Models/RoadSigns/BP_RoadSign.BP_RoadSign_C' ref from Metadata '/Game/Models/RoadSigns/BP_Skilt.PackageMetaData'
+[2017.05.04-12.19.30:635][373]LogMetaData: Removing '/Game/Models/RoadSigns/BP_RoadSign.BP_RoadSign:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Models/RoadSigns/BP_Skilt.PackageMetaData'
+[2017.05.04-12.19.30:635][373]LogMetaData: Removing '/Game/Models/RoadSigns/BP_RoadSign.BP_RoadSign:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Models/RoadSigns/BP_Skilt.PackageMetaData'
+[2017.05.04-12.19.30:635][373]LogMetaData: Removing '/Game/Models/RoadSigns/BP_RoadSign.BP_RoadSign:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Models/RoadSigns/BP_Skilt.PackageMetaData'
+[2017.05.04-12.19.30:635][373]LogMetaData: Removing '/Game/Models/RoadSigns/BP_RoadSign.BP_RoadSign:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Models/RoadSigns/BP_Skilt.PackageMetaData'
+[2017.05.04-12.19.30:635][373]LogMetaData: Removing '/Game/Models/RoadSigns/BP_RoadSign.SKEL_BP_RoadSign_C' ref from Metadata '/Game/Models/RoadSigns/BP_Skilt.PackageMetaData'
+[2017.05.04-12.19.30:832][373]LogSavePackage: Save=36.24ms
+[2017.05.04-12.19.30:832][373]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_RoadSign7E8199234D96FFEB7F9AF68120786EBB.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadSigns/BP_RoadSign.uasset'
+[2017.05.04-12.19.30:835][373]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadSigns/BP_RoadSign.uasset
+[2017.05.04-12.19.30:873][373]LogSavePackage: Save=6.52ms
+[2017.05.04-12.19.30:873][373]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_Skilt606D40864AB287A4C93649851AE794DC.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadSigns/BP_Skilt.uasset'
+[2017.05.04-12.19.30:878][373]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadSigns/BP_Skilt.uasset
+[2017.05.04-12.19.35:216][543]LogSavePackage: Save=34.03ms
+[2017.05.04-12.19.35:216][543]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/T_RoadSignD07837BA400F6FC6CE6FDB98D95F7068.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadSigns/T_RoadSign.uasset'
+[2017.05.04-12.19.35:223][543]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadSigns/T_RoadSign.uasset
+[2017.05.04-12.19.35:578][543]LogSavePackage: Save=20.83ms
+[2017.05.04-12.19.35:579][543]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_gangfeltF79468844CED350092FE459C8DEC24DD.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Farger/M_gangfelt.uasset'
+[2017.05.04-12.19.35:581][543]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Farger/M_gangfelt.uasset
+[2017.05.04-12.19.58:207][497]LogMaterial: Missing cached shader map for material M_Vegg2, compiling. 
+[2017.05.04-12.19.58:990][497]LogMaterial: Missing cached shader map for material M_Vegg2, compiling. 
+[2017.05.04-12.19.59:534][497]LogMaterial: Missing cached shader map for material M_Vegg2, compiling. 
+[2017.05.04-12.19.59:558][497]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-12.19.59:625][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.05.04-12.20.17:881][848]LogMaterial: Missing cached shader map for material M_Murvegg, compiling. 
+[2017.05.04-12.20.48:562][851]LogSavePackage: Save=27.98ms
+[2017.05.04-12.20.48:562][851]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_BrickWall0FA815824C0E93241E6CBF8B702C8A37.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Buildings/M_BrickWall.uasset'
+[2017.05.04-12.20.48:568][851]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Buildings/M_BrickWall.uasset
+[2017.05.04-12.20.49:047][851]LogSavePackage: Save=37.48ms
+[2017.05.04-12.20.49:047][851]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_Wall0C5E14294AC4861D1A8731876CE552CD.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Buildings/BP_Wall.uasset'
+[2017.05.04-12.20.49:049][851]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Buildings/BP_Wall.uasset
+[2017.05.04-12.20.53:525][947]LogMaterial: Missing cached shader map for material M_Vegg, compiling. 
+[2017.05.04-12.20.54:205][947]LogMaterial: Missing cached shader map for material M_Veggside_Matereal, compiling. 
+[2017.05.04-12.20.58:555][947]LogSavePackage: Save=30.65ms
+[2017.05.04-12.20.58:555][947]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_Wall9A37541E4D82B05A3EBBA2B0C3FF5E48.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Buildings/M_Wall.uasset'
+[2017.05.04-12.20.58:560][947]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Buildings/M_Wall.uasset
+[2017.05.04-12.20.59:106][947]LogSavePackage: Save=42.83ms
+[2017.05.04-12.20.59:106][947]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_BuildingBig182F113843844E7F1656E09232BDB81D.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Buildings/BP_BuildingBig.uasset'
+[2017.05.04-12.20.59:109][947]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Buildings/BP_BuildingBig.uasset
+[2017.05.04-12.21.07:127][230]LogSavePackage: Save=22.22ms
+[2017.05.04-12.21.07:127][230]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_SideofWall50B6738B49E94362343594A31B9CCEAA.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Buildings/M_SideofWall.uasset'
+[2017.05.04-12.21.07:132][230]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Buildings/M_SideofWall.uasset
+[2017.05.04-12.21.07:427][230]LogSavePackage: Save=17.48ms
+[2017.05.04-12.21.07:427][230]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_BuildingBig5FD1512345B3D839468C4293EA6F6BBC.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Buildings/BP_BuildingBig.uasset'
+[2017.05.04-12.21.07:430][230]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Buildings/BP_BuildingBig.uasset
+[2017.05.04-12.21.17:223][565]LogSavePackage: Save=426.05ms
+[2017.05.04-12.21.17:224][565]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/T_SideofWall50D88B1540B59B57BBC6F1B27F17939B.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Buildings/T_SideofWall.uasset'
+[2017.05.04-12.21.17:228][565]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Buildings/T_SideofWall.uasset
+[2017.05.04-12.21.17:534][565]LogSavePackage: Save=8.17ms
+[2017.05.04-12.21.17:535][565]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_SideofWall7B1E94EF4D5A33E7F6B9CB9D358E7892.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Buildings/M_SideofWall.uasset'
+[2017.05.04-12.21.17:536][565]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Buildings/M_SideofWall.uasset
+[2017.05.04-12.21.39:447][415]LogSavePackage: Save=10.51ms
+[2017.05.04-12.21.39:447][415]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_carDrive62457A3F4855C2735C7A55879CAB611D.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/CarSounds/S_carDrive.uasset'
+[2017.05.04-12.21.39:452][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/CarSounds/S_carDrive.uasset
+[2017.05.04-12.21.56:098][187]LogSavePackage: Save=10.84ms
+[2017.05.04-12.21.56:098][187]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_AllWrongInLRLD1C7DADF40A0FD22B06144923404A2D3.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_AllWrongInLRL.uasset'
+[2017.05.04-12.21.56:102][187]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_AllWrongInLRL.uasset
+[2017.05.04-12.21.56:388][187]LogSavePackage: Save=9.17ms
+[2017.05.04-12.21.56:389][187]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_alt_feil_i_LRL_Cue3EF8E79D4110F212C56824A7E6006A9E.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_alt_feil_i_LRL_Cue.uasset'
+[2017.05.04-12.21.56:390][187]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_alt_feil_i_LRL_Cue.uasset
+[2017.05.04-12.22.06:497][662]LogSavePackage: Save=10.72ms
+[2017.05.04-12.22.06:497][662]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_CarStoppedAF80F39F4603E0C36E3F66956C9F009E.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_CarStopped.uasset'
+[2017.05.04-12.22.06:501][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_CarStopped.uasset
+[2017.05.04-12.22.06:776][662]LogSavePackage: Save=7.16ms
+[2017.05.04-12.22.06:776][662]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_Bil_stoppet_Cue41C8C7804D2C548EE4E796A4FDEF16F4.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_Bil_stoppet_Cue.uasset'
+[2017.05.04-12.22.06:778][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_Bil_stoppet_Cue.uasset
+[2017.05.04-12.22.12:666][949]LogMetaData: Removing '/Game/Audio/Feedback/S_Bil_CarStopped.S_Bil_CarStopped:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Audio/Feedback/S_Bil_stoppet_Cue.PackageMetaData'
+[2017.05.04-12.22.12:712][949]LogSavePackage: Save=7.36ms
+[2017.05.04-12.22.12:713][949]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_Bil_CarStoppedD2322710431A59499458EAA6B5D978DB.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_Bil_CarStopped.uasset'
+[2017.05.04-12.22.12:717][949]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_Bil_CarStopped.uasset
+[2017.05.04-12.22.13:289][949]LogSavePackage: Save=252.47ms
+[2017.05.04-12.22.13:289][949]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_Character6D20BEBF4ACE2B855DADF2A838322C8D.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset'
+[2017.05.04-12.22.13:303][949]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset
+[2017.05.04-12.22.21:729][354]LogSavePackage: Save=9.99ms
+[2017.05.04-12.22.21:729][354]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_CarStoppedCorrectB0E3E3E54A658B22E0720887712A34FF.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_CarStoppedCorrect.uasset'
+[2017.05.04-12.22.21:733][354]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_CarStoppedCorrect.uasset
+[2017.05.04-12.22.22:016][354]LogSavePackage: Save=9.22ms
+[2017.05.04-12.22.22:017][354]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_bil_stoppet_riktig_CueDA401DA74A1C8D0BE64FCB8D5D96BD27.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_bil_stoppet_riktig_Cue.uasset'
+[2017.05.04-12.22.22:018][354]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_bil_stoppet_riktig_Cue.uasset
+[2017.05.04-12.22.29:766][738]LogSavePackage: Save=10.47ms
+[2017.05.04-12.22.29:766][738]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_CarWasntStill77ABB6854D22DB7A682F9F8482B1CC94.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_CarWasntStill.uasset'
+[2017.05.04-12.22.29:770][738]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_CarWasntStill.uasset
+[2017.05.04-12.22.30:275][738]LogSavePackage: Save=239.03ms
+[2017.05.04-12.22.30:275][738]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_Character4AAF1A294C3EF85D18135AA50948EB47.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset'
+[2017.05.04-12.22.30:278][738]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset
+[2017.05.04-12.22.38:483][116]LogSavePackage: Save=12.46ms
+[2017.05.04-12.22.38:484][116]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_LTwoWrongD53691454FD69087651EB7AD21BC1406.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_LTwoWrong.uasset'
+[2017.05.04-12.22.38:488][116]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_LTwoWrong.uasset
+[2017.05.04-12.22.38:809][116]LogSavePackage: Save=22.81ms
+[2017.05.04-12.22.38:809][116]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_L_to_feil_Cue3A7346D8490EB4375FB24AB952010522.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_L_to_feil_Cue.uasset'
+[2017.05.04-12.22.38:811][116]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_L_to_feil_Cue.uasset
+[2017.05.04-12.22.48:698][571]Cmd: TRANSACTION UNDO
+[2017.05.04-12.22.48:698][571]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.04-12.22.57:930][981]LogMetaData: Removing '/Game/Audio/Feedback/S_TwoWrong_Cue.S_TwoWrong_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Audio/Feedback/S_L_to_feil_Cue.PackageMetaData'
+[2017.05.04-12.22.58:008][981]LogSavePackage: Save=40.28ms
+[2017.05.04-12.22.58:008][981]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_TwoWrong_Cue4240F4C141A126FF352048BE1C27A17E.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_TwoWrong_Cue.uasset'
+[2017.05.04-12.22.58:012][981]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_TwoWrong_Cue.uasset
+[2017.05.04-12.22.58:523][981]LogSavePackage: Save=246.04ms
+[2017.05.04-12.22.58:523][981]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_Character2FDAC06846528EEECB033B82C07BD890.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset'
+[2017.05.04-12.22.58:526][981]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset
+[2017.05.04-12.23.06:809][332]LogSavePackage: Save=38.24ms
+[2017.05.04-12.23.06:809][332]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_LROneWrongC721405840649FB81932C1A743C851EE.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_LROneWrong.uasset'
+[2017.05.04-12.23.06:813][332]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_LROneWrong.uasset
+[2017.05.04-12.23.07:091][332]LogSavePackage: Save=8.13ms
+[2017.05.04-12.23.07:091][332]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_LR_en_feil_Cue25AFB5D5441365579D7B8E95CFCA94C0.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_LR_en_feil_Cue.uasset'
+[2017.05.04-12.23.07:093][332]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_LR_en_feil_Cue.uasset
+[2017.05.04-12.23.39:843][945]LogMetaData: Removing '/Game/Audio/Feedback/S_OneWrong_Cue.S_OneWrong_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Audio/Feedback/S_LR_en_feil_Cue.PackageMetaData'
+[2017.05.04-12.23.39:891][945]LogSavePackage: Save=9.99ms
+[2017.05.04-12.23.39:891][945]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_OneWrong_CueE77F79DE4D0040BB4EC3E98DAD634EDD.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_OneWrong_Cue.uasset'
+[2017.05.04-12.23.39:894][945]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_OneWrong_Cue.uasset
+[2017.05.04-12.23.40:411][945]LogSavePackage: Save=239.13ms
+[2017.05.04-12.23.40:411][945]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_CharacterC0C9C078468CC54647DFA0853FE53447.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset'
+[2017.05.04-12.23.40:413][945]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset
+[2017.05.04-12.23.49:148][370]LogSavePackage: Save=10.97ms
+[2017.05.04-12.23.49:148][370]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_AllRightLRLD7B1820D40E415C559B72EBAA13288C4.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_AllRightLRL.uasset'
+[2017.05.04-12.23.49:152][370]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_AllRightLRL.uasset
+[2017.05.04-12.23.49:429][370]LogSavePackage: Save=8.55ms
+[2017.05.04-12.23.49:429][370]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_LRL_alt_rett_CueA9EAFB1D4B00880679878A9B52FA7CF6.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_LRL_alt_rett_Cue.uasset'
+[2017.05.04-12.23.49:431][370]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_LRL_alt_rett_Cue.uasset
+[2017.05.04-12.23.59:220][849]LogMetaData: Removing '/Game/Audio/Feedback/S_AllRightLRL_Cue.S_AllRightLRL_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Audio/Feedback/S_LRL_alt_rett_Cue.PackageMetaData'
+[2017.05.04-12.23.59:265][849]LogSavePackage: Save=6.66ms
+[2017.05.04-12.23.59:265][849]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_AllRightLRL_CueE0BAA1C342C4A74ABCF355823EDECE84.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_AllRightLRL_Cue.uasset'
+[2017.05.04-12.23.59:269][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_AllRightLRL_Cue.uasset
+[2017.05.04-12.23.59:765][849]LogSavePackage: Save=235.22ms
+[2017.05.04-12.23.59:765][849]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_Character03666F454CAC334338007896DF78E8D3.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset'
+[2017.05.04-12.23.59:768][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset
+[2017.05.04-12.24.17:023][711]LogMetaData: Removing '/Game/Audio/Feedback/S_CarStoppedCorrect_Cue.S_CarStoppedCorrect_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Audio/Feedback/S_bil_stoppet_riktig_Cue.PackageMetaData'
+[2017.05.04-12.24.17:111][711]LogSavePackage: Save=49.20ms
+[2017.05.04-12.24.17:111][711]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_CarStoppedCorrect_Cue6538617046FAEE022510C8A57E4DC69E.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_CarStoppedCorrect_Cue.uasset'
+[2017.05.04-12.24.17:116][711]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_CarStoppedCorrect_Cue.uasset
+[2017.05.04-12.24.17:621][711]LogSavePackage: Save=237.67ms
+[2017.05.04-12.24.17:621][711]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_Character273FB85749E844B6CAA0A586974ABEB8.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset'
+[2017.05.04-12.24.17:623][711]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset
+[2017.05.04-12.24.24:786][ 61]LogMetaData: Removing '/Game/Audio/Feedback/S_Bil_CarStopped_cue.S_Bil_CarStopped_cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Audio/Feedback/S_Bil_CarStopped.PackageMetaData'
+[2017.05.04-12.24.24:829][ 61]LogSavePackage: Save=6.86ms
+[2017.05.04-12.24.24:829][ 61]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_Bil_CarStopped_cue6757402E464DA5BF52FDF2A5F7E22A8D.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_Bil_CarStopped_cue.uasset'
+[2017.05.04-12.24.24:833][ 61]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_Bil_CarStopped_cue.uasset
+[2017.05.04-12.24.25:335][ 61]LogSavePackage: Save=239.82ms
+[2017.05.04-12.24.25:335][ 61]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_CharacterA8709C0B4ED2C7931AEB998CDFCF1811.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset'
+[2017.05.04-12.24.25:338][ 61]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset
+[2017.05.04-12.24.31:283][349]LogMetaData: Removing '/Game/Audio/Feedback/S_CarStopped_cue.S_CarStopped_cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Audio/Feedback/S_Bil_CarStopped_cue.PackageMetaData'
+[2017.05.04-12.24.31:326][349]LogSavePackage: Save=6.75ms
+[2017.05.04-12.24.31:326][349]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_CarStopped_cue3A7BA6D045656A4F1FDF7F9B6F14CCC6.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_CarStopped_cue.uasset'
+[2017.05.04-12.24.31:331][349]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Feedback/S_CarStopped_cue.uasset
+[2017.05.04-12.24.31:828][349]LogSavePackage: Save=230.81ms
+[2017.05.04-12.24.31:828][349]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_Character2E1F06044FC3DCBADF0FE4B77E49FF54.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset'
+[2017.05.04-12.24.31:830][349]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset
+[2017.05.04-12.24.46:213][977]LogSavePackage: Save=11.77ms
+[2017.05.04-12.24.46:213][977]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_Demo035C37EB48421DA2D7CAB78735054A54.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_Demo.uasset'
+[2017.05.04-12.24.46:218][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_Demo.uasset
+[2017.05.04-12.24.46:500][977]LogSavePackage: Save=9.96ms
+[2017.05.04-12.24.46:500][977]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_demonstrasjon_Cue8985566A47F109ACA5E956A22BEA797C.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_demonstrasjon_Cue.uasset'
+[2017.05.04-12.24.46:501][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_demonstrasjon_Cue.uasset
+[2017.05.04-12.24.51:435][211]LogMetaData: Removing '/Game/Audio/Intro/S_demo_Cue.S_demo_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Audio/Intro/S_demonstrasjon_Cue.PackageMetaData'
+[2017.05.04-12.24.51:480][211]LogSavePackage: Save=6.84ms
+[2017.05.04-12.24.51:480][211]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_demo_Cue6206DCA645938D6EE30253AEDECBE50D.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_demo_Cue.uasset'
+[2017.05.04-12.24.51:485][211]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_demo_Cue.uasset
+[2017.05.04-12.24.51:974][211]LogSavePackage: Save=229.76ms
+[2017.05.04-12.24.51:974][211]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_Character08F3F3314D087F49A49E59855A84CF4B.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset'
+[2017.05.04-12.24.51:976][211]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset
+[2017.05.04-12.25.00:947][629]LogSavePackage: Save=10.96ms
+[2017.05.04-12.25.00:947][629]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_intro4CurbBCDAA9F04175D35BAF99CD9888281BA1.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro4Curb.uasset'
+[2017.05.04-12.25.00:952][629]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro4Curb.uasset
+[2017.05.04-12.25.01:231][629]LogSavePackage: Save=9.20ms
+[2017.05.04-12.25.01:231][629]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_intro4_forttau_CueFB5EA4404702C376257C71B2B8778B2F.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro4_forttau_Cue.uasset'
+[2017.05.04-12.25.01:232][629]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro4_forttau_Cue.uasset
+[2017.05.04-12.25.06:897][900]LogMetaData: Removing '/Game/Audio/Intro/S_intro4Curb_Cue.S_intro4Curb_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Audio/Intro/S_intro4_forttau_Cue.PackageMetaData'
+[2017.05.04-12.25.06:939][900]LogSavePackage: Save=7.28ms
+[2017.05.04-12.25.06:940][900]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_intro4Curb_CueC134E1214E49E8888A53F89DF6CF77E1.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro4Curb_Cue.uasset'
+[2017.05.04-12.25.06:943][900]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro4Curb_Cue.uasset
+[2017.05.04-12.25.07:434][900]LogSavePackage: Save=234.49ms
+[2017.05.04-12.25.07:434][900]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_CharacterF6507A564531CA667EDC39883DDA727F.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset'
+[2017.05.04-12.25.07:437][900]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset
+[2017.05.04-12.25.11:148][ 59]LogSavePackage: Save=10.88ms
+[2017.05.04-12.25.11:148][ 59]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_intro_1_-_lightF403365145E9A099EE00B9ABC1FDA428.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_1_-_light.uasset'
+[2017.05.04-12.25.11:153][ 59]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_1_-_light.uasset
+[2017.05.04-12.25.11:427][ 59]LogSavePackage: Save=9.31ms
+[2017.05.04-12.25.11:427][ 59]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_intro_1_-_lys_CueB032E35047557B22B436248458E81700.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_1_-_lys_Cue.uasset'
+[2017.05.04-12.25.11:429][ 59]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_1_-_lys_Cue.uasset
+[2017.05.04-12.25.17:102][320]LogMetaData: Removing '/Game/Audio/Intro/S_intro_1_-_loght_Cue.S_intro_1_-_loght_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Audio/Intro/S_intro_1_-_lys_Cue.PackageMetaData'
+[2017.05.04-12.25.17:146][320]LogSavePackage: Save=7.22ms
+[2017.05.04-12.25.17:146][320]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_intro_1_-_loght_CueFB3A10184EDC02848F9C3386D5958AA5.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_1_-_loght_Cue.uasset'
+[2017.05.04-12.25.17:151][320]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_1_-_loght_Cue.uasset
+[2017.05.04-12.25.17:645][320]LogSavePackage: Save=234.96ms
+[2017.05.04-12.25.17:645][320]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_CharacterAF8495E54C70C6A213C063B426CE7ED3.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset'
+[2017.05.04-12.25.17:648][320]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset
+[2017.05.04-12.25.23:137][572]LogSavePackage: Save=11.70ms
+[2017.05.04-12.25.23:137][572]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_intro_2_-_lightABC085F2468ADCB0351805887BA4833E.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_2_-_light.uasset'
+[2017.05.04-12.25.23:141][572]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_2_-_light.uasset
+[2017.05.04-12.25.23:424][572]LogSavePackage: Save=9.04ms
+[2017.05.04-12.25.23:424][572]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_intro_2_-_lys_Cue06DAF9644A2DE53B7D72699BF1648A07.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_2_-_lys_Cue.uasset'
+[2017.05.04-12.25.23:426][572]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_2_-_lys_Cue.uasset
+[2017.05.04-12.25.26:991][735]LogMetaData: Removing '/Game/Audio/Intro/S_intro_2_-_light_Cue.S_intro_2_-_light_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Audio/Intro/S_intro_2_-_lys_Cue.PackageMetaData'
+[2017.05.04-12.25.27:033][735]LogSavePackage: Save=6.31ms
+[2017.05.04-12.25.27:033][735]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_intro_2_-_light_CueD5D24C964A3CE38599ABA0A3CB536C56.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_2_-_light_Cue.uasset'
+[2017.05.04-12.25.27:037][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_2_-_light_Cue.uasset
+[2017.05.04-12.25.27:532][735]LogSavePackage: Save=233.39ms
+[2017.05.04-12.25.27:533][735]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_Character2013936A4691227E487A5E9381F97F31.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset'
+[2017.05.04-12.25.27:535][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset
+[2017.05.04-12.25.31:346][906]LogSavePackage: Save=13.19ms
+[2017.05.04-12.25.31:346][906]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_intro_3_-_lightF0F8A2E34F7F3D24CE528DB79AF284FC.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_3_-_light.uasset'
+[2017.05.04-12.25.31:350][906]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_3_-_light.uasset
+[2017.05.04-12.25.31:651][906]LogSavePackage: Save=30.81ms
+[2017.05.04-12.25.31:651][906]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_intro_3_-_ys_Cue55C3C0614C7A65E458243DB4E8F3F1A2.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_3_-_ys_Cue.uasset'
+[2017.05.04-12.25.31:653][906]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_3_-_ys_Cue.uasset
+[2017.05.04-12.25.37:250][173]LogMetaData: Removing '/Game/Audio/Intro/S_intro_3_-_light_Cue.S_intro_3_-_light_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Audio/Intro/S_intro_3_-_ys_Cue.PackageMetaData'
+[2017.05.04-12.25.37:291][173]LogSavePackage: Save=7.29ms
+[2017.05.04-12.25.37:291][173]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_intro_3_-_light_Cue3C0A22B141CD03EAE8D9759F18DC3967.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_3_-_light_Cue.uasset'
+[2017.05.04-12.25.37:296][173]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_3_-_light_Cue.uasset
+[2017.05.04-12.25.37:792][173]LogSavePackage: Save=233.38ms
+[2017.05.04-12.25.37:792][173]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_CharacterE8BFAB744F22D6421B65DC82F0D49355.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset'
+[2017.05.04-12.25.37:794][173]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset
+[2017.05.04-12.25.51:847][849]LogSavePackage: Save=13.38ms
+[2017.05.04-12.25.51:847][849]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_Intro5LRLHowCorrect9FF82D0F499ACDA020282C86EA9CCAE2.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_Intro5LRLHowCorrect.uasset'
+[2017.05.04-12.25.51:851][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_Intro5LRLHowCorrect.uasset
+[2017.05.04-12.25.52:128][849]LogSavePackage: Save=9.09ms
+[2017.05.04-12.25.52:128][849]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_intro_5_lrl_hvordan_RETT_Cue5A7411D0457CF67FDCEADB97F946D976.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_5_lrl_hvordan_RETT_Cue.uasset'
+[2017.05.04-12.25.52:129][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_intro_5_lrl_hvordan_RETT_Cue.uasset
+[2017.05.04-12.26.05:254][490]LogMetaData: Removing '/Game/Audio/Intro/S_Intro5LRLHowCorrect_Cue.S_Intro5LRLHowCorrect_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Audio/Intro/S_intro_5_lrl_hvordan_RETT_Cue.PackageMetaData'
+[2017.05.04-12.26.05:298][490]LogSavePackage: Save=7.26ms
+[2017.05.04-12.26.05:298][490]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_Intro5LRLHowCorrect_CueC0990FA94B11CD51DB5F5897A71B58D1.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_Intro5LRLHowCorrect_Cue.uasset'
+[2017.05.04-12.26.05:303][490]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_Intro5LRLHowCorrect_Cue.uasset
+[2017.05.04-12.26.05:801][490]LogSavePackage: Save=233.90ms
+[2017.05.04-12.26.05:801][490]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_Character3176FC08486BB4D755E532819F5E1766.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset'
+[2017.05.04-12.26.05:803][490]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset
+[2017.05.04-12.26.13:876][875]LogSavePackage: Save=10.73ms
+[2017.05.04-12.26.13:876][875]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_LRLWhy7EF1FF2E48D474D9427297895678AFB2.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_LRLWhy.uasset'
+[2017.05.04-12.26.13:880][875]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_LRLWhy.uasset
+[2017.05.04-12.26.14:174][875]LogSavePackage: Save=30.38ms
+[2017.05.04-12.26.14:174][875]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_LRL_hvorfor_Cue560BA40D4581FEE4973CCDAAC7B04ED7.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_LRL_hvorfor_Cue.uasset'
+[2017.05.04-12.26.14:176][875]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_LRL_hvorfor_Cue.uasset
+[2017.05.04-12.26.19:095][ 87]LogMetaData: Removing '/Game/Audio/Intro/S_LRLWhy_Cue.S_LRLWhy_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Audio/Intro/S_LRL_hvorfor_Cue.PackageMetaData'
+[2017.05.04-12.26.19:164][ 87]LogSavePackage: Save=9.98ms
+[2017.05.04-12.26.19:164][ 87]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_LRLWhy_Cue9B9321E049BFBD789F9958961690E23C.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_LRLWhy_Cue.uasset'
+[2017.05.04-12.26.19:169][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_LRLWhy_Cue.uasset
+[2017.05.04-12.26.19:737][ 87]LogSavePackage: Save=265.36ms
+[2017.05.04-12.26.19:737][ 87]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_Character94F20DCF4E1D246E3643C2978DA28416.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset'
+[2017.05.04-12.26.19:740][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset
+[2017.05.04-12.26.31:223][620]LogSavePackage: Save=14.41ms
+[2017.05.04-12.26.31:223][620]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_FinalWalkthroughC9E007554AF0752351EA54A1384383E9.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_FinalWalkthrough.uasset'
+[2017.05.04-12.26.31:227][620]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_FinalWalkthrough.uasset
+[2017.05.04-12.26.31:501][620]LogSavePackage: Save=7.29ms
+[2017.05.04-12.26.31:501][620]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/siste_gjennomgang_CueA666F4F1471D52EEB5AAE48D98B83AA9.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/siste_gjennomgang_Cue.uasset'
+[2017.05.04-12.26.31:503][620]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/siste_gjennomgang_Cue.uasset
+[2017.05.04-12.26.43:314][153]LogMetaData: Removing '/Game/Audio/Intro/S_FinalWalkthrough_Cue.S_FinalWalkthrough_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Audio/Intro/siste_gjennomgang_Cue.PackageMetaData'
+[2017.05.04-12.26.43:359][153]LogSavePackage: Save=8.05ms
+[2017.05.04-12.26.43:359][153]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_FinalWalkthrough_CueFD79B37548A1250FA7DB6B886AE491D0.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_FinalWalkthrough_Cue.uasset'
+[2017.05.04-12.26.43:363][153]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_FinalWalkthrough_Cue.uasset
+[2017.05.04-12.26.43:894][153]LogSavePackage: Save=240.53ms
+[2017.05.04-12.26.43:894][153]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_CharacterE8BE7D5E4FD5FA2FF30D0DBE94162A4A.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset'
+[2017.05.04-12.26.43:896][153]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset
+[2017.05.04-12.26.48:012][328]LogSavePackage: Save=11.24ms
+[2017.05.04-12.26.48:012][328]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/S_TourTurnAAE2D0664EE8F9FB1D1541991A1595E7.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_TourTurn.uasset'
+[2017.05.04-12.26.48:016][328]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Audio/Intro/S_TourTurn.uasset
+[2017.05.04-12.26.48:602][328]LogSavePackage: Save=240.81ms
+[2017.05.04-12.26.48:602][328]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_CharacterF3D92DD74B17254683D215A883A74C05.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset'
+[2017.05.04-12.26.48:605][328]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Character/BP_Character.uasset
+[2017.05.04-12.27.04:702][890]BlueprintLog: New page: Compile BP_Character
+[2017.05.04-12.28.00:304][399]LogSavePackage: Save=852.35ms
+[2017.05.04-12.28.00:305][399]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Scenario1_Auto2724C935C43410718343B0896174807A1.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Autosaves/Game/VirtualRealityBP/Maps/Scenario1_Auto2.umap'
+[2017.05.04-12.28.00:308][399]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Autosaves/Game/VirtualRealityBP/Maps/Scenario1_Auto2.umap
+[2017.05.04-12.28.00:312][399]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/Scenario1' took 0.975
+[2017.05.04-12.28.00:312][399]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.975
+[2017.05.04-12.28.49:666][100]LogSavePackage: Save=78.96ms
+[2017.05.04-12.28.49:666][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_LightYellow7A28DA664E11D18C3BE652B402C909D6.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Colors/M_LightYellow.uasset'
+[2017.05.04-12.28.49:669][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Colors/M_LightYellow.uasset
+[2017.05.04-12.28.49:744][100]LogSavePackage: Save=22.51ms
+[2017.05.04-12.28.49:744][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_gangfelt3845D58248FEDBBC3C4643A383578ECF.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Colors/M_gangfelt.uasset'
+[2017.05.04-12.28.49:747][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Colors/M_gangfelt.uasset
+[2017.05.04-12.28.49:795][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/M_Pole" FILE="../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Colors/M_Pole.uasset" SILENT=true
+[2017.05.04-12.28.49:855][100]LogSavePackage: Save=21.85ms
+[2017.05.04-12.28.49:855][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_Pole9AD047C64127AA38C7A1B4A054938FA9.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Colors/M_Pole.uasset'
+[2017.05.04-12.28.49:860][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Colors/M_Pole.uasset
+[2017.05.04-12.28.49:969][100]LogSavePackage: Save=36.94ms
+[2017.05.04-12.28.49:969][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_LightRed1CDCD8AE4AEEC5F091BDFD9F58DF863B.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Colors/M_LightRed.uasset'
+[2017.05.04-12.28.49:974][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Colors/M_LightRed.uasset
+[2017.05.04-12.28.50:052][100]LogSavePackage: Save=22.04ms
+[2017.05.04-12.28.50:052][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_LightGreen9EA847E84C66388F3105A79FC988D781.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Colors/M_LightGreen.uasset'
+[2017.05.04-12.28.50:055][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Colors/M_LightGreen.uasset
+[2017.05.04-12.28.50:137][100]LogSavePackage: Save=23.06ms
+[2017.05.04-12.28.50:137][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_DarkYellow634DA74F43E65EF05658318B94CCE284.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Colors/M_DarkYellow.uasset'
+[2017.05.04-12.28.50:142][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Colors/M_DarkYellow.uasset
+[2017.05.04-12.28.50:192][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/M_DarkRed" FILE="../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Colors/M_DarkRed.uasset" SILENT=true
+[2017.05.04-12.28.50:230][100]LogSavePackage: Save=24.20ms
+[2017.05.04-12.28.50:230][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_DarkRed475EB7DF4ECD0930E9B1A8BBE15D335E.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Colors/M_DarkRed.uasset'
+[2017.05.04-12.28.50:234][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Colors/M_DarkRed.uasset
+[2017.05.04-12.28.50:305][100]LogSavePackage: Save=20.85ms
+[2017.05.04-12.28.50:305][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/M_DarkGreenE4E1399C428A7B6DD8D3318E213B582A.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Colors/M_DarkGreen.uasset'
+[2017.05.04-12.28.50:308][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Colors/M_DarkGreen.uasset
+[2017.05.04-12.28.51:683][100]LogSavePackage: Save=100.75ms
+[2017.05.04-12.28.51:683][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_RoadE701C59B4C38EBF747A32EA8DDC9B16E.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Road/BP_Road.uasset'
+[2017.05.04-12.28.51:685][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/Road/BP_Road.uasset
+[2017.05.04-12.28.51:901][100]LogSavePackage: Save=74.86ms
+[2017.05.04-12.28.51:902][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/trafikklysEnkel_BlueprintDCC3D8B64599AA10C6C81F93480F9120.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/trafikklysEnkel_Blueprint.uasset'
+[2017.05.04-12.28.51:904][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/trafikklysEnkel_Blueprint.uasset
+[2017.05.04-12.28.52:042][100]LogSavePackage: Save=103.09ms
+[2017.05.04-12.28.52:042][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/TrafikklysDobbel_BlueprintB57D2D0A47443A13DFE7D5B0D119D9DB.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysDobbel_Blueprint.uasset'
+[2017.05.04-12.28.52:045][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysDobbel_Blueprint.uasset
+[2017.05.04-12.28.52:148][100]LogSavePackage: Save=77.84ms
+[2017.05.04-12.28.52:148][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_TrafficLight68E924A14FBDB01997564C8D64B7B979.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/BP_TrafficLight.uasset'
+[2017.05.04-12.28.52:150][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/BP_TrafficLight.uasset
+[2017.05.04-12.28.52:203][100]LogSavePackage: Save=24.61ms
+[2017.05.04-12.28.52:203][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_RoadSign59183E9D499C509389B36EB7C0BD0232.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadSigns/BP_RoadSign.uasset'
+[2017.05.04-12.28.52:206][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/RoadSigns/BP_RoadSign.uasset
+[2017.05.04-12.28.52:520][100]LogSavePackage: Save=49.46ms
+[2017.05.04-12.28.52:520][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/TrafikklysEnkel69B292EF4150DF00F1103BA03E80382A.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysEnkel.uasset'
+[2017.05.04-12.28.52:523][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysEnkel.uasset
+[2017.05.04-12.28.52:572][100]LogSavePackage: Save=16.90ms
+[2017.05.04-12.28.52:572][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SM_TrafficLightasdasF2C8E71F49ED96721B9A23B84C993906.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLightasdas.uasset'
+[2017.05.04-12.28.52:575][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLightasdas.uasset
+[2017.05.04-12.28.52:631][100]LogSavePackage: Save=24.83ms
+[2017.05.04-12.28.52:631][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SM_TrafficLight7201DF6643AB5415CF1DAD8B5F3AEDEC.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLight.uasset'
+[2017.05.04-12.28.52:633][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLight.uasset
+[2017.05.04-12.28.52:718][100]LogSavePackage: Save=63.56ms
+[2017.05.04-12.28.52:718][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/trafikklysEnkel_Blueprint74D3A65F4D07FAAD78FBBEA5F64DF158.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/trafikklysEnkel_Blueprint.uasset'
+[2017.05.04-12.28.52:720][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/trafikklysEnkel_Blueprint.uasset
+[2017.05.04-12.28.52:891][100]LogSavePackage: Save=71.91ms
+[2017.05.04-12.28.52:891][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/TrafikklysFotgjengerEnkel_Blueprint6704ECFF4C3C5DF9145F92A1BF7DD7A5.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysFotgjengerEnkel_Blueprint.uasset'
+[2017.05.04-12.28.52:894][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysFotgjengerEnkel_Blueprint.uasset
+[2017.05.04-12.28.53:011][100]LogSavePackage: Save=94.16ms
+[2017.05.04-12.28.53:011][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/TrafikklysDobbel_Blueprint494EFF624CA79740A84C22987F0030FB.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysDobbel_Blueprint.uasset'
+[2017.05.04-12.28.53:014][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysDobbel_Blueprint.uasset
+[2017.05.04-12.28.53:125][100]LogSavePackage: Save=87.81ms
+[2017.05.04-12.28.53:125][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_TrafficLightED974AB44FAD606C5756E78E6770F041.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/BP_TrafficLight.uasset'
+[2017.05.04-12.28.53:129][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/BP_TrafficLight.uasset
+[2017.05.04-12.28.53:207][100]LogSavePackage: Save=56.10ms
+[2017.05.04-12.28.53:207][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/trafikklysEnkel_Blueprint014F0B9E462808BF596593A5EC3A41C8.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/trafikklysEnkel_Blueprint.uasset'
+[2017.05.04-12.28.53:210][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/trafikklysEnkel_Blueprint.uasset
+[2017.05.04-12.28.53:280][100]LogSavePackage: Save=46.86ms
+[2017.05.04-12.28.53:280][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/TrafikklysFotgjengerEnkel_Blueprint1F14FC234586C03CF817F09B85433E8A.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysFotgjengerEnkel_Blueprint.uasset'
+[2017.05.04-12.28.53:283][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysFotgjengerEnkel_Blueprint.uasset
+[2017.05.04-12.28.53:394][100]LogSavePackage: Save=89.00ms
+[2017.05.04-12.28.53:394][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/TrafikklysDobbel_BlueprintCB9DA6CB451FC0645A6930B8BE789B49.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysDobbel_Blueprint.uasset'
+[2017.05.04-12.28.53:397][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysDobbel_Blueprint.uasset
+[2017.05.04-12.28.53:517][100]LogSavePackage: Save=97.18ms
+[2017.05.04-12.28.53:517][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_TrafficLightA5A93DD14BEB8876931C6CA8A3E333CB.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/BP_TrafficLight.uasset'
+[2017.05.04-12.28.53:520][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/BP_TrafficLight.uasset
+[2017.05.04-12.28.53:554][100]LogSavePackage: Save=10.44ms
+[2017.05.04-12.28.53:554][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/TrafikklysEnkelA363B74A4F29F6BE26169680AED39C2B.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysEnkel.uasset'
+[2017.05.04-12.28.53:558][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysEnkel.uasset
+[2017.05.04-12.28.53:640][100]LogSavePackage: Save=59.53ms
+[2017.05.04-12.28.53:640][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/trafikklysEnkel_Blueprint65973DAC43C106DABA2B42A5D9E89EE7.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/trafikklysEnkel_Blueprint.uasset'
+[2017.05.04-12.28.53:642][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/trafikklysEnkel_Blueprint.uasset
+[2017.05.04-12.28.53:734][100]LogSavePackage: Save=69.89ms
+[2017.05.04-12.28.53:734][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/TrafikklysDobbel_Blueprint00CDAF274A91F1C8F995B198FAB24DFD.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysDobbel_Blueprint.uasset'
+[2017.05.04-12.28.53:737][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysDobbel_Blueprint.uasset
+[2017.05.04-12.28.53:931][100]LogSavePackage: Save=174.39ms
+[2017.05.04-12.28.53:931][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SM_TrafficLightasdasCEECE52942AFB53E5BAC88A245ACBF96.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLightasdas.uasset'
+[2017.05.04-12.28.53:938][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLightasdas.uasset
+[2017.05.04-12.28.54:070][100]LogSavePackage: Save=95.33ms
+[2017.05.04-12.28.54:070][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_TrafficLightABA9DA3B40E26D3D54938390FEC4D91E.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/BP_TrafficLight.uasset'
+[2017.05.04-12.28.54:072][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/BP_TrafficLight.uasset
+[2017.05.04-12.28.54:102][100]LogSavePackage: Save=10.03ms
+[2017.05.04-12.28.54:102][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SM_TrafficLight6E2F7D0846814D9ECD0AA587DCD90F85.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLight.uasset'
+[2017.05.04-12.28.54:106][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLight.uasset
+[2017.05.04-12.28.54:139][100]LogSavePackage: Save=9.40ms
+[2017.05.04-12.28.54:139][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/TrafikklysEnkelA6C1FC624E5DC7DCC97465A7E2826048.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysEnkel.uasset'
+[2017.05.04-12.28.54:143][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysEnkel.uasset
+[2017.05.04-12.28.54:221][100]LogSavePackage: Save=53.48ms
+[2017.05.04-12.28.54:221][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/trafikklysEnkel_Blueprint8368B47D418EB401FEA4B2B55778DA49.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/trafikklysEnkel_Blueprint.uasset'
+[2017.05.04-12.28.54:223][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/trafikklysEnkel_Blueprint.uasset
+[2017.05.04-12.28.54:288][100]LogSavePackage: Save=43.22ms
+[2017.05.04-12.28.54:288][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/TrafikklysFotgjengerEnkel_BlueprintC6DCE97A408976015704DF9B13F52D76.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysFotgjengerEnkel_Blueprint.uasset'
+[2017.05.04-12.28.54:291][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysFotgjengerEnkel_Blueprint.uasset
+[2017.05.04-12.28.54:380][100]LogSavePackage: Save=70.10ms
+[2017.05.04-12.28.54:380][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/TrafikklysDobbel_BlueprintD476DD174FE07CD02EAB65A361BDB364.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysDobbel_Blueprint.uasset'
+[2017.05.04-12.28.54:383][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysDobbel_Blueprint.uasset
+[2017.05.04-12.28.54:503][100]LogSavePackage: Save=98.02ms
+[2017.05.04-12.28.54:503][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SM_TrafficLightasdasFC8A88E947C581349BC1B690592ACEDD.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLightasdas.uasset'
+[2017.05.04-12.28.54:507][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLightasdas.uasset
+[2017.05.04-12.28.54:616][100]LogSavePackage: Save=79.76ms
+[2017.05.04-12.28.54:616][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_TrafficLight3E39D2A0451EC9E0E1668E9ADD0FF95B.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/BP_TrafficLight.uasset'
+[2017.05.04-12.28.54:618][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/BP_TrafficLight.uasset
+[2017.05.04-12.28.54:648][100]LogSavePackage: Save=9.62ms
+[2017.05.04-12.28.54:648][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SM_TrafficLight578811164C640E6DFCC424A638D9B3D7.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLight.uasset'
+[2017.05.04-12.28.54:651][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLight.uasset
+[2017.05.04-12.28.54:681][100]LogSavePackage: Save=9.09ms
+[2017.05.04-12.28.54:682][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/TrafikklysEnkelE7E235D7404E52BA0341FA9B5F4EEA1E.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysEnkel.uasset'
+[2017.05.04-12.28.54:685][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysEnkel.uasset
+[2017.05.04-12.28.54:757][100]LogSavePackage: Save=51.71ms
+[2017.05.04-12.28.54:758][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/trafikklysEnkel_BlueprintF012B7C742DB4800D1936680CE36F07A.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/trafikklysEnkel_Blueprint.uasset'
+[2017.05.04-12.28.54:760][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/trafikklysEnkel_Blueprint.uasset
+[2017.05.04-12.28.54:828][100]LogSavePackage: Save=46.20ms
+[2017.05.04-12.28.54:828][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/TrafikklysFotgjengerEnkel_BlueprintF73F58824CF8167CFFD1BBA9ED6C2C15.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysFotgjengerEnkel_Blueprint.uasset'
+[2017.05.04-12.28.54:831][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysFotgjengerEnkel_Blueprint.uasset
+[2017.05.04-12.28.54:925][100]LogSavePackage: Save=73.09ms
+[2017.05.04-12.28.54:925][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/TrafikklysDobbel_Blueprint10C0FAC549FBCB0E39B2A58565F9B062.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysDobbel_Blueprint.uasset'
+[2017.05.04-12.28.54:927][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/TrafikklysDobbel_Blueprint.uasset
+[2017.05.04-12.28.54:956][100]LogSavePackage: Save=10.02ms
+[2017.05.04-12.28.54:957][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SM_TrafficLightasdasB4A77E97439A9F22309932BA82E789D8.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLightasdas.uasset'
+[2017.05.04-12.28.54:959][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLightasdas.uasset
+[2017.05.04-12.28.55:063][100]LogSavePackage: Save=82.38ms
+[2017.05.04-12.28.55:063][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/BP_TrafficLight9725588C446EF04EE9F5A5AACF4D6C86.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/BP_TrafficLight.uasset'
+[2017.05.04-12.28.55:065][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/BP_TrafficLight.uasset
+[2017.05.04-12.28.55:135][100]LogSavePackage: Save=49.16ms
+[2017.05.04-12.28.55:135][100]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/SM_TrafficLightC09778F44BAB51761C63769A5F2895E8.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLight.uasset'
+[2017.05.04-12.28.55:138][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Models/TrafficLight/SM_TrafficLight.uasset
+[2017.05.04-12.39.08:311][768]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.05.04-12.39.08:316][768]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.04-12.39.08:316][768]LogMaterial:Warning: 	Only transparent or postprocess materials can read from scene depth.
+[2017.05.04-12.46.09:762][432]LogEditorViewport: Clicking on Actor (LMB): BP_Road_C (Road)
+[2017.05.04-12.58.27:654][764]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
+[2017.05.04-12.58.28:649][809]LogTemp: Repeting last play command: Simulate
+[2017.05.04-12.58.28:681][809]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/Scenario1.Scenario1:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/Scenario1.Scenario1:PersistentLevel.Scenario1' with GeneratedClass '/Game/VirtualRealityBP/Maps/Scenario1.Scenario1_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/Scenario1.Scenario1:PersistentLevel.Scenario1'
+[2017.05.04-12.58.28:683][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.04-12.58.28:710][809]PIE: New page: SIE session: Scenario1 (May 4, 2017, 4:58:28 PM)
+[2017.05.04-12.58.28:716][809]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_Scenario1
+[2017.05.04-12.58.28:835][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.118111s)
+[2017.05.04-12.58.28:837][809]LogAIModule: Creating AISystem for world Scenario1
+[2017.05.04-12.58.28:840][809]LogPlayLevel: PIE: World Init took: (0.005212s)
+[2017.05.04-12.58.28:842][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/Scenario1.Scenario1 to /Game/VirtualRealityBP/Maps/UEDPIE_0_Scenario1.Scenario1 (0.125933s)
+[2017.05.04-12.58.28:976][809]LogInit: XAudio2 using 'Høyttalere (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-12.58.29:016][809]LogInit: FAudioDevice initialized.
+[2017.05.04-12.58.29:172][809]LogLoad: Game class is 'GameMode_Bachelor_C'
+[2017.05.04-12.58.29:234][809]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_Scenario1.Scenario1 up for play (max tick rate 60) at 2017.05.04-14.58.29
+[2017.05.04-12.58.29:242][809]LogWorld: Bringing up level for play took: 0.024330
+[2017.05.04-12.58.29:251][809]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.04-12.58.29:536][809]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0030 seconds. Added 11 classes and 0 folders.
+[2017.05.04-12.58.29:571][809]Cmd: stereo on
+[2017.05.04-12.58.29:584][809]Command not recognized: stereo on
+[2017.05.04-12.58.29:587][809]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2017.05.04-12.58.29:602][809]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_Scenario1 1.392
+[2017.05.04-12.58.29:692][809]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/Scenario1.Scenario1:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/Scenario1.Scenario1:PersistentLevel.Scenario1' with GeneratedClass '/Game/VirtualRealityBP/Maps/Scenario1.Scenario1_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/Scenario1.Scenario1:PersistentLevel.Scenario1'
+[2017.05.04-12.59.45:325][612]LogBlueprintUserMessages: [Scenario1_C_1] 1
+[2017.05.04-12.59.47:785][701]LogBlueprintUserMessages: [Scenario1_C_1] 2
+[2017.05.04-12.59.50:121][785]LogBlueprintUserMessages: [Scenario1_C_1] 3
+[2017.05.04-12.59.54:117][930]LogBlueprintUserMessages: [Scenario1_C_1] 4
+[2017.05.04-12.59.57:894][ 68]LogBlueprintUserMessages: [Scenario1_C_1] 5
+[2017.05.04-12.59.59:435][124]LogBlueprintUserMessages: [Scenario1_C_1] 1
+[2017.05.04-13.00.02:506][236]LogBlueprintUserMessages: [Scenario1_C_1] 6
+[2017.05.04-13.00.04:113][294]LogBlueprintUserMessages: [Scenario1_C_1] 2
+[2017.05.04-13.00.05:491][357]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/Scenario1.Scenario1:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/Scenario1.Scenario1:PersistentLevel.Scenario1' with GeneratedClass '/Game/VirtualRealityBP/Maps/Scenario1.Scenario1_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/Scenario1.Scenario1:PersistentLevel.Scenario1'
+[2017.05.04-13.00.05:652][357]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/Scenario1.Scenario1:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/Scenario1.Scenario1:PersistentLevel.Scenario1' with GeneratedClass '/Game/VirtualRealityBP/Maps/Scenario1.Scenario1_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/Scenario1.Scenario1:PersistentLevel.Scenario1'
+[2017.05.04-13.00.39:525][954]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.04-13.00.48:833][429]Cmd: SELECT NONE
+[2017.05.04-13.00.53:436][619]LogSavePackage: Save=817.10ms
+[2017.05.04-13.00.53:436][619]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Scenario19E2337FC4BD28D868C861EBD034C9169.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VirtualRealityBP/Maps/Scenario1.umap'
+[2017.05.04-13.00.53:442][619]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VirtualRealityBP/Maps/Scenario1.umap
+[2017.05.04-13.00.54:021][619]LogSavePackage: Save=243.90ms
+[2017.05.04-13.00.54:021][619]LogSavePackage: Moving '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Scenario1_BuiltDataBADFC3DF43F051DD6CCCBCA70D402AAF.tmp' to '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VirtualRealityBP/Maps/Scenario1_BuiltData.uasset'
+[2017.05.04-13.00.54:023][619]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/VirtualRealityBP/Maps/Scenario1_BuiltData.uasset
+[2017.05.04-13.00.56:430][703]Cmd: QUIT_EDITOR
+[2017.05.04-13.00.57:247][703]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.04-13.00.57:560][703]LogExit: Preparing to exit.
+[2017.05.04-13.01.00:194][703]LogDirectoryWatcher: A directory notification for 'C:/Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/' was aborted.
+[2017.05.04-13.01.02:045][703]LogExit: Editor shut down
+[2017.05.04-13.01.02:054][703]LogExit: Transaction tracking system shut down
+[2017.05.04-13.01.08:057][703]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.04-13.01.08:057][703]LogExit: Object subsystem successfully closed.
+[2017.05.04-13.01.08:888][703]LogD3D11RHI: Shutdown
+[2017.05.04-13.01.08:888][703]LogD3D11RHI: CleanupD3DDevice
+[2017.05.04-13.01.09:746][703]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.04-13.01.10:474][703]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.04-13.01.10:474][703]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF33C9924-49D4-1755-C02A-529451286FFC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=4e4b92a24b3dbd2bffcb78a5ba204c81%7C5a60590e9d614e86b0376a4455ce5a0a%7C8ac4f604-fb7b-4bca-830c-e38f21a4a0af&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.04-13.01.10:492][703]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (247)
+[2017.05.04-13.01.10:493][703]LogModuleManager: Shutting down and abandoning module MaterialEditor (246)
+[2017.05.04-13.01.10:493][703]LogModuleManager: Shutting down and abandoning module BlueprintGraph (245)
+[2017.05.04-13.01.10:493][703]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (244)
+[2017.05.04-13.01.10:499][703]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (243)
+[2017.05.04-13.01.10:499][703]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (242)
+[2017.05.04-13.01.10:729][703]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2017.05.04-13.01.10:730][703]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2017.05.04-13.01.10:731][703]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2017.05.04-13.01.10:731][703]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2017.05.04-13.01.10:731][703]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2017.05.04-13.01.10:736][703]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.05.04-13.01.11:217][703]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2017.05.04-13.01.11:217][703]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2017.05.04-13.01.11:217][703]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2017.05.04-13.01.11:221][703]LogDirectoryWatcher: A directory notification for 'C:/Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Collections/' was aborted.
+[2017.05.04-13.01.11:222][703]LogDirectoryWatcher: A directory notification for 'C:/Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/Developers/bardlokas/Collections/' was aborted.
+[2017.05.04-13.01.11:222][703]LogDirectoryWatcher: A directory notification for 'C:/Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Saved/Collections/' was aborted.
+[2017.05.04-13.01.11:222][703]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2017.05.04-13.01.11:225][703]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2017.05.04-13.01.11:226][703]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2017.05.04-13.01.11:230][703]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2017.05.04-13.01.11:230][703]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2017.05.04-13.01.11:230][703]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2017.05.04-13.01.11:230][703]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2017.05.04-13.01.11:230][703]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2017.05.04-13.01.11:232][703]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2017.05.04-13.01.11:233][703]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2017.05.04-13.01.11:234][703]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2017.05.04-13.01.11:234][703]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2017.05.04-13.01.11:236][703]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2017.05.04-13.01.11:237][703]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2017.05.04-13.01.11:246][703]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2017.05.04-13.01.11:246][703]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2017.05.04-13.01.11:246][703]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2017.05.04-13.01.11:246][703]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2017.05.04-13.01.11:246][703]LogModuleManager: Shutting down and abandoning module Media (215)
+[2017.05.04-13.01.11:246][703]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2017.05.04-13.01.11:246][703]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2017.05.04-13.01.11:246][703]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2017.05.04-13.01.11:246][703]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2017.05.04-13.01.11:259][703]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2017.05.04-13.01.11:259][703]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2017.05.04-13.01.11:259][703]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2017.05.04-13.01.11:259][703]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2017.05.04-13.01.11:259][703]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2017.05.04-13.01.11:259][703]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2017.05.04-13.01.11:276][703]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2017.05.04-13.01.11:291][703]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2017.05.04-13.01.11:296][703]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2017.05.04-13.01.11:298][703]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2017.05.04-13.01.11:300][703]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2017.05.04-13.01.11:300][703]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2017.05.04-13.01.11:605][703]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2017.05.04-13.01.11:608][703]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2017.05.04-13.01.11:608][703]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2017.05.04-13.01.11:608][703]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2017.05.04-13.01.11:608][703]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2017.05.04-13.01.11:613][703]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2017.05.04-13.01.11:617][703]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2017.05.04-13.01.11:619][703]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2017.05.04-13.01.11:623][703]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2017.05.04-13.01.11:623][703]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2017.05.04-13.01.11:624][703]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2017.05.04-13.01.11:628][703]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2017.05.04-13.01.11:631][703]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2017.05.04-13.01.11:635][703]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2017.05.04-13.01.11:638][703]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2017.05.04-13.01.11:638][703]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2017.05.04-13.01.11:639][703]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2017.05.04-13.01.11:640][703]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2017.05.04-13.01.11:644][703]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2017.05.04-13.01.11:644][703]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2017.05.04-13.01.11:644][703]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2017.05.04-13.01.11:651][703]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2017.05.04-13.01.11:653][703]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2017.05.04-13.01.11:654][703]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2017.05.04-13.01.11:657][703]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2017.05.04-13.01.11:657][703]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2017.05.04-13.01.11:741][703]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2017.05.04-13.01.11:744][703]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2017.05.04-13.01.11:746][703]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2017.05.04-13.01.11:752][703]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2017.05.04-13.01.11:752][703]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2017.05.04-13.01.11:763][703]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2017.05.04-13.01.11:766][703]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2017.05.04-13.01.11:766][703]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2017.05.04-13.01.11:770][703]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2017.05.04-13.01.11:811][703]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2017.05.04-13.01.11:811][703]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2017.05.04-13.01.11:812][703]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2017.05.04-13.01.11:815][703]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2017.05.04-13.01.11:819][703]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2017.05.04-13.01.11:821][703]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2017.05.04-13.01.11:821][703]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2017.05.04-13.01.11:822][703]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2017.05.04-13.01.11:823][703]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2017.05.04-13.01.11:823][703]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2017.05.04-13.01.11:825][703]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2017.05.04-13.01.11:825][703]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2017.05.04-13.01.11:825][703]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2017.05.04-13.01.11:825][703]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2017.05.04-13.01.11:825][703]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2017.05.04-13.01.11:826][703]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2017.05.04-13.01.11:829][703]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2017.05.04-13.01.11:829][703]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2017.05.04-13.01.12:026][703]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2017.05.04-13.01.12:029][703]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2017.05.04-13.01.12:029][703]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2017.05.04-13.01.12:029][703]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2017.05.04-13.01.12:029][703]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2017.05.04-13.01.12:031][703]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2017.05.04-13.01.12:032][703]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2017.05.04-13.01.12:032][703]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2017.05.04-13.01.12:032][703]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2017.05.04-13.01.12:032][703]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2017.05.04-13.01.12:032][703]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2017.05.04-13.01.12:033][703]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2017.05.04-13.01.12:033][703]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2017.05.04-13.01.12:054][703]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2017.05.04-13.01.12:055][703]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2017.05.04-13.01.12:055][703]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2017.05.04-13.01.12:055][703]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2017.05.04-13.01.12:056][703]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2017.05.04-13.01.12:056][703]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2017.05.04-13.01.12:056][703]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2017.05.04-13.01.12:056][703]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2017.05.04-13.01.12:056][703]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2017.05.04-13.01.12:058][703]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2017.05.04-13.01.12:060][703]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2017.05.04-13.01.12:061][703]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2017.05.04-13.01.12:061][703]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2017.05.04-13.01.12:061][703]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2017.05.04-13.01.12:061][703]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2017.05.04-13.01.12:063][703]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2017.05.04-13.01.12:071][703]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2017.05.04-13.01.12:074][703]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2017.05.04-13.01.12:074][703]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2017.05.04-13.01.12:074][703]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2017.05.04-13.01.12:075][703]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2017.05.04-13.01.12:075][703]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2017.05.04-13.01.12:075][703]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2017.05.04-13.01.12:090][703]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2017.05.04-13.01.12:182][703]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2017.05.04-13.01.12:182][703]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2017.05.04-13.01.12:190][703]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2017.05.04-13.01.12:194][703]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2017.05.04-13.01.12:196][703]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.05.04-13.01.12:297][703]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.05.04-13.01.12:410][703]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.05.04-13.01.12:410][703]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.05.04-13.01.12:411][703]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.05.04-13.01.12:411][703]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.05.04-13.01.12:414][703]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.05.04-13.01.12:415][703]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.05.04-13.01.12:418][703]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.05.04-13.01.12:418][703]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.05.04-13.01.12:418][703]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.05.04-13.01.12:418][703]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.05.04-13.01.12:421][703]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.05.04-13.01.12:422][703]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.05.04-13.01.12:431][703]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.05.04-13.01.12:534][703]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.05.04-13.01.12:534][703]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.05.04-13.01.12:534][703]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.05.04-13.01.12:539][703]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.05.04-13.01.12:542][703]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.05.04-13.01.12:544][703]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.05.04-13.01.12:548][703]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.05.04-13.01.12:548][703]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.05.04-13.01.12:612][703]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.05.04-13.01.12:612][703]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.05.04-13.01.12:612][703]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.05.04-13.01.12:612][703]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.05.04-13.01.12:612][703]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.05.04-13.01.12:612][703]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.05.04-13.01.12:612][703]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.04-13.01.12:613][703]LogDirectoryWatcher: A directory notification for '../../../../../../Users/bardlokas/Documents/BachelorBranchBardlokas2/BachelorNy3/Bachelor/Bachelor/Content/' was aborted.
+[2017.05.04-13.01.12:613][703]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.04-13.01.12:620][703]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.05.04-13.01.13:382][703]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.05.04-13.01.13:382][703]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.05.04-13.01.13:383][703]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.05.04-13.01.13:384][703]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.05.04-13.01.13:385][703]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.05.04-13.01.13:386][703]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.05.04-13.01.13:386][703]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.05.04-13.01.13:391][703]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.05.04-13.01.13:504][703]LogDerivedDataCache: Shutdown
+[2017.05.04-13.01.13:504][703]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.05.04-13.01.13:506][703]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.05.04-13.01.13:507][703]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.05.04-13.01.13:508][703]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.05.04-13.01.13:511][703]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.05.04-13.01.13:512][703]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.05.04-13.01.13:512][703]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.05.04-13.01.13:512][703]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.05.04-13.01.13:608][703]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.05.04-13.01.13:608][703]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.05.04-13.01.13:608][703]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.05.04-13.01.13:608][703]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.05.04-13.01.13:609][703]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.05.04-13.01.13:609][703]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.05.04-13.01.13:610][703]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.05.04-13.01.13:614][703]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.05.04-13.01.13:617][703]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.05.04-13.01.13:617][703]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.05.04-13.01.13:686][703]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.05.04-13.01.13:710][703]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.05.04-13.01.13:712][703]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.05.04-13.01.13:793][703]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.05.04-13.01.13:796][703]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.05.04-13.01.13:815][703]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.05.04-13.01.13:820][703]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.05.04-13.01.13:821][703]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.05.04-13.01.13:823][703]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.05.04-13.01.13:826][703]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.05.04-13.01.13:827][703]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.05.04-13.01.13:827][703]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.05.04-13.01.13:828][703]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.05.04-13.01.13:828][703]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.05.04-13.01.13:828][703]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.05.04-13.01.13:848][703]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.05.04-13.01.13:855][703]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.05.04-13.01.13:856][703]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.05.04-13.01.13:906][703]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.05.04-13.01.13:907][703]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.05.04-13.01.13:909][703]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.05.04-13.01.13:912][703]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.05.04-13.01.13:950][703]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.05.04-13.01.13:950][703]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.05.04-13.01.13:950][703]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.05.04-13.01.14:001][703]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.05.04-13.01.14:001][703]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.05.04-13.01.14:001][703]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.05.04-13.01.14:004][703]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.04-13.01.14:007][703]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.05.04-13.01.14:018][703]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.05.04-13.01.14:018][703]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.05.04-13.01.14:055][703]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.05.04-13.01.14:055][703]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.05.04-13.01.14:055][703]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.05.04-13.01.14:055][703]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.05.04-13.01.14:315][703]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.05.04-13.01.14:320][703]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.05.04-13.01.14:320][703]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.05.04-13.01.14:341][703]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.05.04-13.01.14:342][703]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.05.04-13.01.14:342][703]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.05.04-13.01.14:342][703]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.05.04-13.01.14:385][703]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.05.04-13.01.14:391][703]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.05.04-13.01.14:437][703]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.05.04-13.01.14:491][703]LogExit: Exiting.
+[2017.05.04-13.01.14:692][703]Log file closed, 05/04/17 15:01:14
