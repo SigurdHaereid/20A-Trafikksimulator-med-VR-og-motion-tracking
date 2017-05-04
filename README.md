@@ -1,1 +1,3 @@
-# Bachelor
+# Installation
+
+#Installasjon
