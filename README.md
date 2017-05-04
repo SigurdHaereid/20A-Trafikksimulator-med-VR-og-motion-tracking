@@ -1,7 +1,7 @@
 # Traffic Simulation with VR and Motion Tracking
 
 ## Installation
-1. First you download the project
+1. First you download the project by typing into the terminal
 `git clone https://Github.com/SigurdHaereid/Bachelor.git`
   Alternatively you can download the .zip version directly from this page.
 
@@ -13,7 +13,7 @@
 3. When you have the project and Unreal Engine 4.14 installed you can open the folder and open the file Bachelor.uproject. This should automatically open up the Unreal Editor from which you can run the game by pressing the small arrow next to the play button and selecting "VR Preview". If the editor doesn't automatically launch, you can open the editor manually and open the project from within the editor.
 
 ## Installasjon
-1. Først laster du ned prosjektet.
+1. Først laster du ned prosjektet ved å skrive dette inn i terminalvinduet
 `git clone https://Github.com/SigurdHaereid/Bachelor.git`
 Du kan også laste ned prosjektet som en .zip fil direkte fra denne siden..
 
