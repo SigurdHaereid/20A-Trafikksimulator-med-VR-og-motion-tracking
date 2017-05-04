@@ -10,7 +10,9 @@
    [Unreal Engine Installation Guide](https://docs.unrealengine.com/latest/INT/GettingStarted/Installation/ "Unreal Engine")
 
 
-3. When you have the project and Unreal Engine 4.14 installed you can open the folder and open the file Bachelor.uproject. This should automatically open up the Unreal Editor from which you can run the game by pressing the small arrow next to the play button and selecting "VR Preview". If the editor doesn't automatically launch, you can open the editor manually and open the project from within the editor.
+3. When you have the project and Unreal Engine 4.14 installed you can open the folder and open the file Bachelor.uproject. This should automatically open up the Unreal Editor from which you can run the game by pressing the small arrow next to the play button and selecting "VR Preview". 
+![](https://github.com/SigurdHaereid/Bachelor/blob/master/vrpreview.JPG "VR Preview")
+If the editor doesn't automatically launch, you can open the editor manually and open the project from within the editor.
 
 ## Installasjon
 1. Først laster du ned prosjektet ved å skrive dette inn i terminalvinduet
@@ -22,4 +24,6 @@ Du kan også laste ned prosjektet som en .zip fil direkte fra denne siden..
    [Unreal Engine Installasjonsguide](https://docs.unrealengine.com/latest/INT/GettingStarted/Installation/ "Unreal Engine")
 
 
-3. Når du har en kopi av prosjektet og Unreal Engine 4.14 installert, kan du åpne mappen til prosjektet og åpne filen Bachelor.uproject. Dette skal automatisk åpne Unreal Editor som du kan benytte til å kjøre prosjektet. Dette gjør du med å trykke på den lille pilen ved siden av Play knappen og velger "VR Preview". Dersom Unreal Editor ikke automatisk starter opp, kan du åpne den manuelt for å så kjøre prosjektet manuelt derifra.
+3. Når du har en kopi av prosjektet og Unreal Engine 4.14 installert, kan du åpne mappen til prosjektet og åpne filen Bachelor.uproject. Dette skal automatisk åpne Unreal Editor som du kan benytte til å kjøre prosjektet. Dette gjør du med å trykke på den lille pilen ved siden av Play knappen og velger "VR Preview".
+![](https://github.com/SigurdHaereid/Bachelor/blob/master/vrpreview.JPG "VR Preview")
+ Dersom Unreal Editor ikke automatisk starter opp, kan du åpne den manuelt for å så kjøre prosjektet manuelt derifra.
