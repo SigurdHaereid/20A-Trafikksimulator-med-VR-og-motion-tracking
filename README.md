@@ -16,7 +16,7 @@ If the editor doesn't automatically launch, you can open the editor manually and
 
 ## Installasjon
 1. Først laster du ned prosjektet ved å skrive dette inn i terminalvinduet
-`git clone https://Github.com/SigurdHaereid/https://github.com/SigurdHaereid/20A-Trafikksimulator-med-VR-og-motion-tracking.git`
+`git clone https://github.com/SigurdHaereid/20A-Trafikksimulator-med-VR-og-motion-tracking.git`
 Du kan også laste ned prosjektet som en .zip fil direkte fra denne siden..
 
 2. Når du har en kopi av prosjektet, last ned versjon 4.14 av Unreal Engine.
